@@ -14,6 +14,7 @@
             "_appFooter": "Error Detection Documentation",
             "_enableSearch": true
         },
+        "template": ["default", "templates/unity"],
         "content": [{
                 "files": ["toc.yml", "index.md"]
             },
