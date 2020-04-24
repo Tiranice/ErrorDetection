@@ -1,4 +1,4 @@
-name: Example documentation
+name: Error Detection Documentation
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
       - name: Build
         run: |
           cp README.md Documentation/index.md
-          docfx Documentation/docfx.json
+          docfx docfx.json
 
       # Upload the generated documentation
       - name: Upload site artifact
