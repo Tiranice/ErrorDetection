@@ -1,9 +1,15 @@
 apiRules:
 - include:
-    uidRegex: ^DocFxForUnity
+    uidRegex: ^DrivingErrors
     type: Namespace
 - include:
-    uidRegex: ^Global
+    uidRegex: ^DrivingErrors\.UI
+    type: Namespace
+- include:
+    uidRegex: ^DrivingErrors\.UI\.Buttons
+    type: Namespace
+- include:
+    uidRegex: ^DrivingErrors\.ErrorDetection
     type: Namespace
 - exclude:
     uidRegex: .*
