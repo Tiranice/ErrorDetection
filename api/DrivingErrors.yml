@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  id: DrivingErrors
+  children:
+  - DrivingErrors.Checkpoint
+  - DrivingErrors.DrivingError
+  - DrivingErrors.DrivingErrorHandler
+  - DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: DrivingErrors.Checkpoint
+  commentId: T:DrivingErrors.Checkpoint
+  name: Checkpoint
+  nameWithType: Checkpoint
+  fullName: DrivingErrors.Checkpoint
+- uid: DrivingErrors.DrivingError
+  commentId: T:DrivingErrors.DrivingError
+  parent: DrivingErrors
+  name: DrivingError
+  nameWithType: DrivingError
+  fullName: DrivingErrors.DrivingError
+- uid: DrivingErrors.DrivingErrorHandler
+  commentId: T:DrivingErrors.DrivingErrorHandler
+  name: DrivingErrorHandler
+  nameWithType: DrivingErrorHandler
+  fullName: DrivingErrors.DrivingErrorHandler
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType
+  commentId: T:DrivingErrors.DrivingErrorHandler.ErrorType
+  parent: DrivingErrors
+  name: DrivingErrorHandler.ErrorType
+  nameWithType: DrivingErrorHandler.ErrorType
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors

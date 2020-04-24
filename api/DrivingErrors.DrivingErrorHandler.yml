@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.DrivingErrorHandler
+  commentId: T:DrivingErrors.DrivingErrorHandler
+  id: DrivingErrorHandler
+  parent: DrivingErrors
+  children:
+  - DrivingErrors.DrivingErrorHandler.AppendDrivingError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  - DrivingErrors.DrivingErrorHandler.ClearDrivingErrors
+  - DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingError)
+  - DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  - DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors
+  - DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors
+  - DrivingErrors.DrivingErrorHandler.PrintErrors
+  - DrivingErrors.DrivingErrorHandler.sendError
+  - DrivingErrors.DrivingErrorHandler.TotalErrors
+  langs:
+  - csharp
+  - vb
+  name: DrivingErrorHandler
+  nameWithType: DrivingErrorHandler
+  fullName: DrivingErrors.DrivingErrorHandler
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: DrivingErrorHandler
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 70
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n<p>This handles all of the error reporting.  It is the go-between for the error system and the UI.</p>\n<p>This is to be placed on an empty of the same name with a tag of the same name.</p>\n"
+  remarks: "\n<p>\nThis is intended to be used as a singlton within any one scene.\nThe singlton must have the synonyms tag for the related scripts to function.\nAddtional errors can be added by expanding the <code>ErrorType</code> enum.\n</p>\n"
+  example: []
+  syntax:
+    content: 'public class DrivingErrorHandler : MonoBehaviour'
+    content.vb: >-
+      Public Class DrivingErrorHandler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DrivingErrors.DrivingErrorHandler.sendError
+  commentId: F:DrivingErrors.DrivingErrorHandler.sendError
+  id: sendError
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: sendError
+  nameWithType: DrivingErrorHandler.sendError
+  fullName: DrivingErrors.DrivingErrorHandler.sendError
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: sendError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 137
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  syntax:
+    content: public ErrorMessageController sendError
+    return:
+      type: DrivingErrors.UI.ErrorMessageController
+    content.vb: Public sendError As ErrorMessageController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.AppendDrivingError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  commentId: M:DrivingErrors.DrivingErrorHandler.AppendDrivingError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  id: AppendDrivingError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: AppendDrivingError(DrivingErrorHandler.ErrorType)
+  nameWithType: DrivingErrorHandler.AppendDrivingError(DrivingErrorHandler.ErrorType)
+  fullName: DrivingErrors.DrivingErrorHandler.AppendDrivingError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: AppendDrivingError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 163
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nAppend a new DrivingError to the list of errors.\nIf the error has already been recorded, then increments the count for that error.\n"
+  example: []
+  syntax:
+    content: public void AppendDrivingError(DrivingErrorHandler.ErrorType errorType)
+    parameters:
+    - id: errorType
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+      description: ''
+    content.vb: Public Sub AppendDrivingError(errorType As DrivingErrorHandler.ErrorType)
+  overload: DrivingErrors.DrivingErrorHandler.AppendDrivingError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.ClearDrivingErrors
+  commentId: M:DrivingErrors.DrivingErrorHandler.ClearDrivingErrors
+  id: ClearDrivingErrors
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: ClearDrivingErrors()
+  nameWithType: DrivingErrorHandler.ClearDrivingErrors()
+  fullName: DrivingErrors.DrivingErrorHandler.ClearDrivingErrors()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: ClearDrivingErrors
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 186
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nDelete all entries in the DrivingErrors list.\n"
+  example: []
+  syntax:
+    content: public void ClearDrivingErrors()
+    content.vb: Public Sub ClearDrivingErrors
+  overload: DrivingErrors.DrivingErrorHandler.ClearDrivingErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.PrintErrors
+  commentId: M:DrivingErrors.DrivingErrorHandler.PrintErrors
+  id: PrintErrors
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: PrintErrors()
+  nameWithType: DrivingErrorHandler.PrintErrors()
+  fullName: DrivingErrors.DrivingErrorHandler.PrintErrors()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: PrintErrors
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 195
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nPrints all of the errors in the list to the console.\n"
+  example: []
+  syntax:
+    content: public void PrintErrors()
+    content.vb: Public Sub PrintErrors
+  overload: DrivingErrors.DrivingErrorHandler.PrintErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  commentId: M:DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  id: FindError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: FindError(DrivingErrorHandler.ErrorType)
+  nameWithType: DrivingErrorHandler.FindError(DrivingErrorHandler.ErrorType)
+  fullName: DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingErrorHandler.ErrorType)
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: FindError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 208
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nFind an error of a specific error type.\n"
+  example: []
+  syntax:
+    content: public DrivingError FindError(DrivingErrorHandler.ErrorType errorType)
+    parameters:
+    - id: errorType
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+      description: ''
+    return:
+      type: DrivingErrors.DrivingError
+      description: DrivingError
+    content.vb: Public Function FindError(errorType As DrivingErrorHandler.ErrorType) As DrivingError
+  overload: DrivingErrors.DrivingErrorHandler.FindError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingError)
+  commentId: M:DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingError)
+  id: FindError(DrivingErrors.DrivingError)
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: FindError(DrivingError)
+  nameWithType: DrivingErrorHandler.FindError(DrivingError)
+  fullName: DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingError)
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: FindError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 218
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nFind an error of a specific type given a DrivingError object with that errorType.\n"
+  example: []
+  syntax:
+    content: public DrivingError FindError(DrivingError drivingError)
+    parameters:
+    - id: drivingError
+      type: DrivingErrors.DrivingError
+      description: ''
+    return:
+      type: DrivingErrors.DrivingError
+      description: DrivingError
+    content.vb: Public Function FindError(drivingError As DrivingError) As DrivingError
+  overload: DrivingErrors.DrivingErrorHandler.FindError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors
+  commentId: M:DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors
+  id: GetArrayOfDrivingErrors
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: GetArrayOfDrivingErrors()
+  nameWithType: DrivingErrorHandler.GetArrayOfDrivingErrors()
+  fullName: DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: GetArrayOfDrivingErrors
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 227
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nReturn a read only array of the error stored.\n"
+  example: []
+  syntax:
+    content: public DrivingError[] GetArrayOfDrivingErrors()
+    return:
+      type: DrivingErrors.DrivingError[]
+      description: Read-Only Array of DrivingErrors
+    content.vb: Public Function GetArrayOfDrivingErrors As DrivingError()
+  overload: DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingErrorHandler.TotalErrors
+  commentId: P:DrivingErrors.DrivingErrorHandler.TotalErrors
+  id: TotalErrors
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: TotalErrors
+  nameWithType: DrivingErrorHandler.TotalErrors
+  fullName: DrivingErrors.DrivingErrorHandler.TotalErrors
+  type: Property
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: TotalErrors
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 238
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nGets the sum of all errors in the <code>drivingErrors</code> list.\n"
+  example: []
+  syntax:
+    content: public int TotalErrors { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: Sum of all <code>errorCount</code> members across all of the stored errors.
+    content.vb: Public ReadOnly Property TotalErrors As Integer
+  overload: DrivingErrors.DrivingErrorHandler.TotalErrors*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors
+  commentId: M:DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors
+  id: GetSessionDrivingErrors
+  parent: DrivingErrors.DrivingErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: GetSessionDrivingErrors()
+  nameWithType: DrivingErrorHandler.GetSessionDrivingErrors()
+  fullName: DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: GetSessionDrivingErrors
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 255
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n<p>Returns a list of all <xref href=\"DrivingErrors.DrivingError\" data-throw-if-not-resolved=\"false\"></xref>s that have been reported across the entire session.</p>\n"
+  example: []
+  syntax:
+    content: public List<DrivingError> GetSessionDrivingErrors()
+    return:
+      type: System.Collections.Generic.List{DrivingErrors.DrivingError}
+      description: <xref href="System.Collections.Generic.List%601" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function GetSessionDrivingErrors As List(Of DrivingError)
+  overload: DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: DrivingErrors.UI.ErrorMessageController
+  commentId: T:DrivingErrors.UI.ErrorMessageController
+  parent: DrivingErrors.UI
+  name: ErrorMessageController
+  nameWithType: ErrorMessageController
+  fullName: DrivingErrors.UI.ErrorMessageController
+- uid: DrivingErrors.UI
+  commentId: N:DrivingErrors.UI
+  name: DrivingErrors.UI
+  nameWithType: DrivingErrors.UI
+  fullName: DrivingErrors.UI
+- uid: DrivingErrors.DrivingErrorHandler.AppendDrivingError*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.AppendDrivingError
+  name: AppendDrivingError
+  nameWithType: DrivingErrorHandler.AppendDrivingError
+  fullName: DrivingErrors.DrivingErrorHandler.AppendDrivingError
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType
+  commentId: T:DrivingErrors.DrivingErrorHandler.ErrorType
+  parent: DrivingErrors
+  name: DrivingErrorHandler.ErrorType
+  nameWithType: DrivingErrorHandler.ErrorType
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType
+- uid: DrivingErrors.DrivingErrorHandler.ClearDrivingErrors*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.ClearDrivingErrors
+  name: ClearDrivingErrors
+  nameWithType: DrivingErrorHandler.ClearDrivingErrors
+  fullName: DrivingErrors.DrivingErrorHandler.ClearDrivingErrors
+- uid: DrivingErrors.DrivingErrorHandler.PrintErrors*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.PrintErrors
+  name: PrintErrors
+  nameWithType: DrivingErrorHandler.PrintErrors
+  fullName: DrivingErrors.DrivingErrorHandler.PrintErrors
+- uid: DrivingErrors.DrivingErrorHandler.FindError*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.FindError
+  name: FindError
+  nameWithType: DrivingErrorHandler.FindError
+  fullName: DrivingErrors.DrivingErrorHandler.FindError
+- uid: DrivingErrors.DrivingError
+  commentId: T:DrivingErrors.DrivingError
+  parent: DrivingErrors
+  name: DrivingError
+  nameWithType: DrivingError
+  fullName: DrivingErrors.DrivingError
+- uid: DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors
+  name: GetArrayOfDrivingErrors
+  nameWithType: DrivingErrorHandler.GetArrayOfDrivingErrors
+  fullName: DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors
+- uid: DrivingErrors.DrivingError[]
+  isExternal: true
+  name: DrivingError[]
+  nameWithType: DrivingError[]
+  fullName: DrivingErrors.DrivingError[]
+  nameWithType.vb: DrivingError()
+  fullName.vb: DrivingErrors.DrivingError()
+  name.vb: DrivingError()
+  spec.csharp:
+  - uid: DrivingErrors.DrivingError
+    name: DrivingError
+    nameWithType: DrivingError
+    fullName: DrivingErrors.DrivingError
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: DrivingErrors.DrivingError
+    name: DrivingError
+    nameWithType: DrivingError
+    fullName: DrivingErrors.DrivingError
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: DrivingErrors.DrivingErrorHandler.TotalErrors*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.TotalErrors
+  name: TotalErrors
+  nameWithType: DrivingErrorHandler.TotalErrors
+  fullName: DrivingErrors.DrivingErrorHandler.TotalErrors
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors*
+  commentId: Overload:DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors
+  name: GetSessionDrivingErrors
+  nameWithType: DrivingErrorHandler.GetSessionDrivingErrors
+  fullName: DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors
+- uid: System.Collections.Generic.List{DrivingErrors.DrivingError}
+  commentId: T:System.Collections.Generic.List{DrivingErrors.DrivingError}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DrivingError>
+  nameWithType: List<DrivingError>
+  fullName: System.Collections.Generic.List<DrivingErrors.DrivingError>
+  nameWithType.vb: List(Of DrivingError)
+  fullName.vb: System.Collections.Generic.List(Of DrivingErrors.DrivingError)
+  name.vb: List(Of DrivingError)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DrivingErrors.DrivingError
+    name: DrivingError
+    nameWithType: DrivingError
+    fullName: DrivingErrors.DrivingError
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DrivingErrors.DrivingError
+    name: DrivingError
+    nameWithType: DrivingError
+    fullName: DrivingErrors.DrivingError
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

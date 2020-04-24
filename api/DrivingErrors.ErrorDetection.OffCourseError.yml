@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.ErrorDetection.OffCourseError
+  commentId: T:DrivingErrors.ErrorDetection.OffCourseError
+  id: OffCourseError
+  parent: DrivingErrors.ErrorDetection
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: OffCourseError
+  nameWithType: OffCourseError
+  fullName: DrivingErrors.ErrorDetection.OffCourseError
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/OffCourseError.cs
+    id: OffCourseError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/OffCourseError.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.ErrorDetection
+  summary: "\nAuthor:  Devon Wilson  |  3/6/2020\nReports an error when the player goes of course. eg. drives on the sidewalk.\n"
+  remarks: "\n<p>This can be places on:</p>\n<p>— A sidewalk with a trigger volume attatched,</p>\n<p>— An area that the player is not allowed to drive on for a period of time,</p>\n"
+  example: []
+  syntax:
+    content: 'public class OffCourseError : MonoBehaviour'
+    content.vb: >-
+      Public Class OffCourseError
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: DrivingErrors.ErrorDetection
+  commentId: N:DrivingErrors.ErrorDetection
+  name: DrivingErrors.ErrorDetection
+  nameWithType: DrivingErrors.ErrorDetection
+  fullName: DrivingErrors.ErrorDetection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.UI.Buttons
+  commentId: N:DrivingErrors.UI.Buttons
+  id: DrivingErrors.UI.Buttons
+  children:
+  - DrivingErrors.UI.Buttons.ExitButton
+  - DrivingErrors.UI.Buttons.ReportButton
+  - DrivingErrors.UI.Buttons.RestartButton
+  langs:
+  - csharp
+  - vb
+  name: DrivingErrors.UI.Buttons
+  nameWithType: DrivingErrors.UI.Buttons
+  fullName: DrivingErrors.UI.Buttons
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: DrivingErrors.UI.Buttons.ExitButton
+  commentId: T:DrivingErrors.UI.Buttons.ExitButton
+  name: ExitButton
+  nameWithType: ExitButton
+  fullName: DrivingErrors.UI.Buttons.ExitButton
+- uid: DrivingErrors.UI.Buttons.ReportButton
+  commentId: T:DrivingErrors.UI.Buttons.ReportButton
+  name: ReportButton
+  nameWithType: ReportButton
+  fullName: DrivingErrors.UI.Buttons.ReportButton
+- uid: DrivingErrors.UI.Buttons.RestartButton
+  commentId: T:DrivingErrors.UI.Buttons.RestartButton
+  name: RestartButton
+  nameWithType: RestartButton
+  fullName: DrivingErrors.UI.Buttons.RestartButton

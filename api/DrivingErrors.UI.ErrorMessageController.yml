@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.UI.ErrorMessageController
+  commentId: T:DrivingErrors.UI.ErrorMessageController
+  id: ErrorMessageController
+  parent: DrivingErrors.UI
+  children:
+  - DrivingErrors.UI.ErrorMessageController.HideMessageBox
+  - DrivingErrors.UI.ErrorMessageController.SendError(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessageController
+  nameWithType: ErrorMessageController
+  fullName: DrivingErrors.UI.ErrorMessageController
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ErrorMessageController.cs
+    id: ErrorMessageController
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ErrorMessageController.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.UI
+  summary: "\nHandles the error message UI\n"
+  remarks: "\n<p> Gets an int value from <xref href=\"DrivingErrors.DrivingErrorHandler\" data-throw-if-not-resolved=\"false\"></xref> to populate the correct text for the error made.</p>\n<p> This script should be placed on a <xref href=\"UnityEngine.Canvas\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n<p>Author:  Zane Sims</p>\n<p>Extends <xref href=\"UnityEngine.MonoBehaviour\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+  example: []
+  syntax:
+    content: 'public class ErrorMessageController : MonoBehaviour'
+    content.vb: >-
+      Public Class ErrorMessageController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DrivingErrors.UI.ErrorMessageController.SendError(System.Int32)
+  commentId: M:DrivingErrors.UI.ErrorMessageController.SendError(System.Int32)
+  id: SendError(System.Int32)
+  parent: DrivingErrors.UI.ErrorMessageController
+  langs:
+  - csharp
+  - vb
+  name: SendError(Int32)
+  nameWithType: ErrorMessageController.SendError(Int32)
+  fullName: DrivingErrors.UI.ErrorMessageController.SendError(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ErrorMessageController.cs
+    id: SendError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ErrorMessageController.cs
+    startLine: 166
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.UI
+  summary: "\nCall to send an error by id to the <xref href=\"DrivingErrors.UI.ErrorMessageController\" data-throw-if-not-resolved=\"false\"></xref> so that it can be displayed in the UI.\n"
+  example: []
+  syntax:
+    content: public void SendError(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: An <xref href="DrivingErrors.DrivingErrorHandler.ErrorType" data-throw-if-not-resolved="false"></xref> cast to an <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> representing the error that was made.
+    content.vb: Public Sub SendError(id As Integer)
+  overload: DrivingErrors.UI.ErrorMessageController.SendError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.UI.ErrorMessageController.HideMessageBox
+  commentId: M:DrivingErrors.UI.ErrorMessageController.HideMessageBox
+  id: HideMessageBox
+  parent: DrivingErrors.UI.ErrorMessageController
+  langs:
+  - csharp
+  - vb
+  name: HideMessageBox()
+  nameWithType: ErrorMessageController.HideMessageBox()
+  fullName: DrivingErrors.UI.ErrorMessageController.HideMessageBox()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ErrorMessageController.cs
+    id: HideMessageBox
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ErrorMessageController.cs
+    startLine: 218
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.UI
+  syntax:
+    content: public void HideMessageBox()
+    content.vb: Public Sub HideMessageBox
+  overload: DrivingErrors.UI.ErrorMessageController.HideMessageBox*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DrivingErrors.DrivingErrorHandler
+  commentId: T:DrivingErrors.DrivingErrorHandler
+  name: DrivingErrorHandler
+  nameWithType: DrivingErrorHandler
+  fullName: DrivingErrors.DrivingErrorHandler
+- uid: UnityEngine.Canvas
+  commentId: T:UnityEngine.Canvas
+  isExternal: true
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: DrivingErrors.UI
+  commentId: N:DrivingErrors.UI
+  name: DrivingErrors.UI
+  nameWithType: DrivingErrors.UI
+  fullName: DrivingErrors.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DrivingErrors.UI.ErrorMessageController
+  commentId: T:DrivingErrors.UI.ErrorMessageController
+  parent: DrivingErrors.UI
+  name: ErrorMessageController
+  nameWithType: ErrorMessageController
+  fullName: DrivingErrors.UI.ErrorMessageController
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType
+  commentId: T:DrivingErrors.DrivingErrorHandler.ErrorType
+  parent: DrivingErrors
+  name: DrivingErrorHandler.ErrorType
+  nameWithType: DrivingErrorHandler.ErrorType
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DrivingErrors.UI.ErrorMessageController.SendError*
+  commentId: Overload:DrivingErrors.UI.ErrorMessageController.SendError
+  name: SendError
+  nameWithType: ErrorMessageController.SendError
+  fullName: DrivingErrors.UI.ErrorMessageController.SendError
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors
+- uid: DrivingErrors.UI.ErrorMessageController.HideMessageBox*
+  commentId: Overload:DrivingErrors.UI.ErrorMessageController.HideMessageBox
+  name: HideMessageBox
+  nameWithType: ErrorMessageController.HideMessageBox
+  fullName: DrivingErrors.UI.ErrorMessageController.HideMessageBox

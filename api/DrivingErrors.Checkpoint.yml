@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.Checkpoint
+  commentId: T:DrivingErrors.Checkpoint
+  id: Checkpoint
+  parent: DrivingErrors
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Checkpoint
+  nameWithType: Checkpoint
+  fullName: DrivingErrors.Checkpoint
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/Checkpoint.cs
+    id: Checkpoint
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/Checkpoint.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n<p>Player will be sent back to these on continue and optionally this can toggle the \n      notAllowedToStop flag on the player car.\n</p>\n<p>See:  <xref href=\"DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+  remarks: "\nAuthor:  Nibrass Khan\n"
+  example: []
+  syntax:
+    content: 'public class Checkpoint : MonoBehaviour'
+    content.vb: >-
+      Public Class Checkpoint
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop
+  commentId: F:DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop
+  isExternal: true
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

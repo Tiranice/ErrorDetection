@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.ErrorDetection.PlayerCollisionDetector
+  commentId: T:DrivingErrors.ErrorDetection.PlayerCollisionDetector
+  id: PlayerCollisionDetector
+  parent: DrivingErrors.ErrorDetection
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlayerCollisionDetector
+  nameWithType: PlayerCollisionDetector
+  fullName: DrivingErrors.ErrorDetection.PlayerCollisionDetector
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/PlayerCollisionDetector.cs
+    id: PlayerCollisionDetector
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/PlayerCollisionDetector.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.ErrorDetection
+  syntax:
+    content: 'public class PlayerCollisionDetector : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerCollisionDetector
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: DrivingErrors.ErrorDetection
+  commentId: N:DrivingErrors.ErrorDetection
+  name: DrivingErrors.ErrorDetection
+  nameWithType: DrivingErrors.ErrorDetection
+  fullName: DrivingErrors.ErrorDetection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

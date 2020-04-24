@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.UI
+  commentId: N:DrivingErrors.UI
+  id: DrivingErrors.UI
+  children:
+  - DrivingErrors.UI.ErrorMessageController
+  - DrivingErrors.UI.ReportCardScript
+  langs:
+  - csharp
+  - vb
+  name: DrivingErrors.UI
+  nameWithType: DrivingErrors.UI
+  fullName: DrivingErrors.UI
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: DrivingErrors.UI.ErrorMessageController
+  commentId: T:DrivingErrors.UI.ErrorMessageController
+  parent: DrivingErrors.UI
+  name: ErrorMessageController
+  nameWithType: ErrorMessageController
+  fullName: DrivingErrors.UI.ErrorMessageController
+- uid: DrivingErrors.UI.ReportCardScript
+  commentId: T:DrivingErrors.UI.ReportCardScript
+  name: ReportCardScript
+  nameWithType: ReportCardScript
+  fullName: DrivingErrors.UI.ReportCardScript
+- uid: DrivingErrors.UI
+  commentId: N:DrivingErrors.UI
+  name: DrivingErrors.UI
+  nameWithType: DrivingErrors.UI
+  fullName: DrivingErrors.UI

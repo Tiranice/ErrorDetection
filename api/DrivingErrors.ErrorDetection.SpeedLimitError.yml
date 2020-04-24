@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.ErrorDetection.SpeedLimitError
+  commentId: T:DrivingErrors.ErrorDetection.SpeedLimitError
+  id: SpeedLimitError
+  parent: DrivingErrors.ErrorDetection
+  children:
+  - DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit
+  langs:
+  - csharp
+  - vb
+  name: SpeedLimitError
+  nameWithType: SpeedLimitError
+  fullName: DrivingErrors.ErrorDetection.SpeedLimitError
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/SpeedLimitError.cs
+    id: SpeedLimitError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/SpeedLimitError.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.ErrorDetection
+  summary: "\nUsed to check if the player is driving of the speed limit.\n"
+  remarks: "\nAuthor:  Devon James Wilson 02/25/2020\n<p>\nThis should be placed on both the player object and the speed signs.\nEach of the speed signs should have a trigger that sets the speed limit for the player.\n</p>\n"
+  example: []
+  syntax:
+    content: 'public class SpeedLimitError : MonoBehaviour'
+    content.vb: >-
+      Public Class SpeedLimitError
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit
+  commentId: P:DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit
+  id: SpeedLimit
+  parent: DrivingErrors.ErrorDetection.SpeedLimitError
+  langs:
+  - csharp
+  - vb
+  name: SpeedLimit
+  nameWithType: SpeedLimitError.SpeedLimit
+  fullName: DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit
+  type: Property
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/SpeedLimitError.cs
+    id: SpeedLimit
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/SpeedLimitError.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.ErrorDetection
+  syntax:
+    content: public double SpeedLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property SpeedLimit As Double
+  overload: DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: DrivingErrors.ErrorDetection
+  commentId: N:DrivingErrors.ErrorDetection
+  name: DrivingErrors.ErrorDetection
+  nameWithType: DrivingErrors.ErrorDetection
+  fullName: DrivingErrors.ErrorDetection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit*
+  commentId: Overload:DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit
+  name: SpeedLimit
+  nameWithType: SpeedLimitError.SpeedLimit
+  fullName: DrivingErrors.ErrorDetection.SpeedLimitError.SpeedLimit
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

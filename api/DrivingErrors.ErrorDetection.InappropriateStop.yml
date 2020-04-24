@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.ErrorDetection.InappropriateStop
+  commentId: T:DrivingErrors.ErrorDetection.InappropriateStop
+  id: InappropriateStop
+  parent: DrivingErrors.ErrorDetection
+  children:
+  - DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop
+  langs:
+  - csharp
+  - vb
+  name: InappropriateStop
+  nameWithType: InappropriateStop
+  fullName: DrivingErrors.ErrorDetection.InappropriateStop
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/InappropriateStop.cs
+    id: InappropriateStop
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/InappropriateStop.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.ErrorDetection
+  syntax:
+    content: 'public class InappropriateStop : MonoBehaviour'
+    content.vb: >-
+      Public Class InappropriateStop
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop
+  commentId: F:DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop
+  id: notAllowedToStop
+  parent: DrivingErrors.ErrorDetection.InappropriateStop
+  langs:
+  - csharp
+  - vb
+  name: notAllowedToStop
+  nameWithType: InappropriateStop.notAllowedToStop
+  fullName: DrivingErrors.ErrorDetection.InappropriateStop.notAllowedToStop
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/InappropriateStop.cs
+    id: notAllowedToStop
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/InappropriateStop.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.ErrorDetection
+  syntax:
+    content: public bool notAllowedToStop
+    return:
+      type: System.Boolean
+    content.vb: Public notAllowedToStop As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DrivingErrors.ErrorDetection
+  commentId: N:DrivingErrors.ErrorDetection
+  name: DrivingErrors.ErrorDetection
+  nameWithType: DrivingErrors.ErrorDetection
+  fullName: DrivingErrors.ErrorDetection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

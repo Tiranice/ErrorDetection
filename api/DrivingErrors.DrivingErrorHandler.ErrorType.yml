@@ -1,0 +1,508 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType
+  commentId: T:DrivingErrors.DrivingErrorHandler.ErrorType
+  id: DrivingErrorHandler.ErrorType
+  parent: DrivingErrors
+  children:
+  - DrivingErrors.DrivingErrorHandler.ErrorType.Collision
+  - DrivingErrors.DrivingErrorHandler.ErrorType.DriveOnSidewalk
+  - DrivingErrors.DrivingErrorHandler.ErrorType.DrivingInPassingLane
+  - DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Light
+  - DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Sign
+  - DrivingErrors.DrivingErrorHandler.ErrorType.FailureToYield
+  - DrivingErrors.DrivingErrorHandler.ErrorType.FatalError
+  - DrivingErrors.DrivingErrorHandler.ErrorType.IllegalLaneChange
+  - DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateStop
+  - DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateTurn
+  - DrivingErrors.DrivingErrorHandler.ErrorType.NoTurnOnRed
+  - DrivingErrors.DrivingErrorHandler.ErrorType.OffCourse
+  - DrivingErrors.DrivingErrorHandler.ErrorType.Oneway
+  - DrivingErrors.DrivingErrorHandler.ErrorType.Speeding
+  langs:
+  - csharp
+  - vb
+  name: DrivingErrorHandler.ErrorType
+  nameWithType: DrivingErrorHandler.ErrorType
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType
+  type: Enum
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: ErrorType
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 76
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nThe different errors that are possible in the simulation.\n"
+  example: []
+  syntax:
+    content: public enum ErrorType
+    content.vb: Public Enum ErrorType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.FatalError
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.FatalError
+  id: FatalError
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: FatalError
+  nameWithType: DrivingErrorHandler.ErrorType.FatalError
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.FatalError
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: FatalError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 81
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n0 Generic fatal error.\n"
+  example: []
+  syntax:
+    content: FatalError = 0
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Sign
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Sign
+  id: FailureToStop_Sign
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: FailureToStop_Sign
+  nameWithType: DrivingErrorHandler.ErrorType.FailureToStop_Sign
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Sign
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: FailureToStop_Sign
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 85
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n1 Failure to stop at an area where it is always required.\n"
+  example: []
+  syntax:
+    content: FailureToStop_Sign = 1
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Light
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Light
+  id: FailureToStop_Light
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: FailureToStop_Light
+  nameWithType: DrivingErrorHandler.ErrorType.FailureToStop_Light
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.FailureToStop_Light
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: FailureToStop_Light
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 89
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n2 Failure to stop at an area where it is sometimes required.\n"
+  example: []
+  syntax:
+    content: FailureToStop_Light = 2
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.FailureToYield
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.FailureToYield
+  id: FailureToYield
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: FailureToYield
+  nameWithType: DrivingErrorHandler.ErrorType.FailureToYield
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.FailureToYield
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: FailureToYield
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 93
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n3 Failure to yield when player does not have the right-of-way.\n"
+  example: []
+  syntax:
+    content: FailureToYield = 3
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.Speeding
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.Speeding
+  id: Speeding
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: Speeding
+  nameWithType: DrivingErrorHandler.ErrorType.Speeding
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.Speeding
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: Speeding
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 97
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n4 Driving over the designated speed limit.\n"
+  example: []
+  syntax:
+    content: Speeding = 4
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateStop
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateStop
+  id: InappropriateStop
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: InappropriateStop
+  nameWithType: DrivingErrorHandler.ErrorType.InappropriateStop
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateStop
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: InappropriateStop
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 101
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n5 Stopping in an area where stopping is illegal.\n"
+  example: []
+  syntax:
+    content: InappropriateStop = 5
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.IllegalLaneChange
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.IllegalLaneChange
+  id: IllegalLaneChange
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: IllegalLaneChange
+  nameWithType: DrivingErrorHandler.ErrorType.IllegalLaneChange
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.IllegalLaneChange
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: IllegalLaneChange
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 105
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n6 Making a lane change manuver when it is not allowed\n"
+  example: []
+  syntax:
+    content: IllegalLaneChange = 6
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.DriveOnSidewalk
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.DriveOnSidewalk
+  id: DriveOnSidewalk
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: DriveOnSidewalk
+  nameWithType: DrivingErrorHandler.ErrorType.DriveOnSidewalk
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.DriveOnSidewalk
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: DriveOnSidewalk
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 109
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n7 Driving on the sidewalk\n"
+  example: []
+  syntax:
+    content: DriveOnSidewalk = 7
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateTurn
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateTurn
+  id: InappropriateTurn
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: InappropriateTurn
+  nameWithType: DrivingErrorHandler.ErrorType.InappropriateTurn
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.InappropriateTurn
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: InappropriateTurn
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 113
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n8 Turning at an improper time.\n"
+  example: []
+  syntax:
+    content: InappropriateTurn = 8
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.Collision
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.Collision
+  id: Collision
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: Collision
+  nameWithType: DrivingErrorHandler.ErrorType.Collision
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.Collision
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: Collision
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 117
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n9 Player car collision \n"
+  example: []
+  syntax:
+    content: Collision = 9
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.OffCourse
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.OffCourse
+  id: OffCourse
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: OffCourse
+  nameWithType: DrivingErrorHandler.ErrorType.OffCourse
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.OffCourse
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: OffCourse
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 121
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n10 Driving off of the road\n"
+  example: []
+  syntax:
+    content: OffCourse = 10
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.Oneway
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.Oneway
+  id: Oneway
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: Oneway
+  nameWithType: DrivingErrorHandler.ErrorType.Oneway
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.Oneway
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: Oneway
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 125
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n11 Driving the wrong way down a oneway\n"
+  example: []
+  syntax:
+    content: Oneway = 11
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.DrivingInPassingLane
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.DrivingInPassingLane
+  id: DrivingInPassingLane
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: DrivingInPassingLane
+  nameWithType: DrivingErrorHandler.ErrorType.DrivingInPassingLane
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.DrivingInPassingLane
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: DrivingInPassingLane
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 129
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n12 Driving down the passing lane for too long\n"
+  example: []
+  syntax:
+    content: DrivingInPassingLane = 12
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType.NoTurnOnRed
+  commentId: F:DrivingErrors.DrivingErrorHandler.ErrorType.NoTurnOnRed
+  id: NoTurnOnRed
+  parent: DrivingErrors.DrivingErrorHandler.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: NoTurnOnRed
+  nameWithType: DrivingErrorHandler.ErrorType.NoTurnOnRed
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType.NoTurnOnRed
+  type: Field
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: NoTurnOnRed
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 133
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n13 Turning illeagly at a traffic light\n"
+  example: []
+  syntax:
+    content: NoTurnOnRed = 13
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType
+  commentId: T:DrivingErrors.DrivingErrorHandler.ErrorType
+  parent: DrivingErrors
+  name: DrivingErrorHandler.ErrorType
+  nameWithType: DrivingErrorHandler.ErrorType
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType

@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.DrivingError
+  commentId: T:DrivingErrors.DrivingError
+  id: DrivingError
+  parent: DrivingErrors
+  children:
+  - DrivingErrors.DrivingError.Equals(DrivingErrors.DrivingError)
+  - DrivingErrors.DrivingError.Equals(System.Object)
+  - DrivingErrors.DrivingError.errorCount
+  - DrivingErrors.DrivingError.errorType
+  - DrivingErrors.DrivingError.GetHashCode
+  - DrivingErrors.DrivingError.ToString
+  langs:
+  - csharp
+  - vb
+  name: DrivingError
+  nameWithType: DrivingError
+  fullName: DrivingErrors.DrivingError
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: DrivingError
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nThe <code>DrivingError</code> object represents a type of driving error and holds a count of that type of error.\n"
+  remarks: "\n<p>Author: Devon James Wilson</p>\n<p>Implements <xref href=\"System.IEquatable%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+  example: []
+  syntax:
+    content: 'public class DrivingError : IEquatable<DrivingError>'
+    content.vb: >-
+      Public Class DrivingError
+          Implements IEquatable(Of DrivingError)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DrivingErrors.DrivingError.errorType
+  commentId: P:DrivingErrors.DrivingError.errorType
+  id: errorType
+  parent: DrivingErrors.DrivingError
+  langs:
+  - csharp
+  - vb
+  name: errorType
+  nameWithType: DrivingError.errorType
+  fullName: DrivingErrors.DrivingError.errorType
+  type: Property
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: errorType
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\n<p>Get/Set the <xref href=\"DrivingErrors.DrivingErrorHandler.ErrorType\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+  example: []
+  syntax:
+    content: public DrivingErrorHandler.ErrorType errorType { get; set; }
+    parameters: []
+    return:
+      type: DrivingErrors.DrivingErrorHandler.ErrorType
+    content.vb: Public Property errorType As DrivingErrorHandler.ErrorType
+  overload: DrivingErrors.DrivingError.errorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingError.errorCount
+  commentId: P:DrivingErrors.DrivingError.errorCount
+  id: errorCount
+  parent: DrivingErrors.DrivingError
+  langs:
+  - csharp
+  - vb
+  name: errorCount
+  nameWithType: DrivingError.errorCount
+  fullName: DrivingErrors.DrivingError.errorCount
+  type: Property
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: errorCount
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 24
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  summary: "\nCounts the number of times an error has be recorded.\n"
+  example: []
+  syntax:
+    content: public int errorCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property errorCount As Integer
+  overload: DrivingErrors.DrivingError.errorCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DrivingErrors.DrivingError.ToString
+  commentId: M:DrivingErrors.DrivingError.ToString
+  id: ToString
+  parent: DrivingErrors.DrivingError
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DrivingError.ToString()
+  fullName: DrivingErrors.DrivingError.ToString()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: ToString
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: DrivingErrors.DrivingError.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DrivingErrors.DrivingError.Equals(System.Object)
+  commentId: M:DrivingErrors.DrivingError.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DrivingErrors.DrivingError
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: DrivingError.Equals(Object)
+  fullName: DrivingErrors.DrivingError.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: Equals
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DrivingErrors.DrivingError.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DrivingErrors.DrivingError.GetHashCode
+  commentId: M:DrivingErrors.DrivingError.GetHashCode
+  id: GetHashCode
+  parent: DrivingErrors.DrivingError
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DrivingError.GetHashCode()
+  fullName: DrivingErrors.DrivingError.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: GetHashCode
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 45
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: DrivingErrors.DrivingError.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DrivingErrors.DrivingError.Equals(DrivingErrors.DrivingError)
+  commentId: M:DrivingErrors.DrivingError.Equals(DrivingErrors.DrivingError)
+  id: Equals(DrivingErrors.DrivingError)
+  parent: DrivingErrors.DrivingError
+  langs:
+  - csharp
+  - vb
+  name: Equals(DrivingError)
+  nameWithType: DrivingError.Equals(DrivingError)
+  fullName: DrivingErrors.DrivingError.Equals(DrivingErrors.DrivingError)
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    id: Equals
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/DrivingErrorHandler.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors
+  syntax:
+    content: public bool Equals(DrivingError other)
+    parameters:
+    - id: other
+      type: DrivingErrors.DrivingError
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DrivingError) As Boolean
+  overload: DrivingErrors.DrivingError.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+- uid: DrivingErrors
+  commentId: N:DrivingErrors
+  name: DrivingErrors
+  nameWithType: DrivingErrors
+  fullName: DrivingErrors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DrivingErrors.DrivingErrorHandler.ErrorType
+  commentId: T:DrivingErrors.DrivingErrorHandler.ErrorType
+  parent: DrivingErrors
+  name: DrivingErrorHandler.ErrorType
+  nameWithType: DrivingErrorHandler.ErrorType
+  fullName: DrivingErrors.DrivingErrorHandler.ErrorType
+- uid: DrivingErrors.DrivingError.errorType*
+  commentId: Overload:DrivingErrors.DrivingError.errorType
+  name: errorType
+  nameWithType: DrivingError.errorType
+  fullName: DrivingErrors.DrivingError.errorType
+- uid: DrivingErrors.DrivingError.errorCount*
+  commentId: Overload:DrivingErrors.DrivingError.errorCount
+  name: errorCount
+  nameWithType: DrivingError.errorCount
+  fullName: DrivingErrors.DrivingError.errorCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DrivingErrors.DrivingError.ToString*
+  commentId: Overload:DrivingErrors.DrivingError.ToString
+  name: ToString
+  nameWithType: DrivingError.ToString
+  fullName: DrivingErrors.DrivingError.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DrivingErrors.DrivingError.Equals*
+  commentId: Overload:DrivingErrors.DrivingError.Equals
+  name: Equals
+  nameWithType: DrivingError.Equals
+  fullName: DrivingErrors.DrivingError.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DrivingErrors.DrivingError.GetHashCode*
+  commentId: Overload:DrivingErrors.DrivingError.GetHashCode
+  name: GetHashCode
+  nameWithType: DrivingError.GetHashCode
+  fullName: DrivingErrors.DrivingError.GetHashCode
+- uid: DrivingErrors.DrivingError
+  commentId: T:DrivingErrors.DrivingError
+  parent: DrivingErrors
+  name: DrivingError
+  nameWithType: DrivingError
+  fullName: DrivingErrors.DrivingError

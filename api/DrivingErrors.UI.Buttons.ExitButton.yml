@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: DrivingErrors.UI.Buttons.ExitButton
+  commentId: T:DrivingErrors.UI.Buttons.ExitButton
+  id: ExitButton
+  parent: DrivingErrors.UI.Buttons
+  children:
+  - DrivingErrors.UI.Buttons.ExitButton.ExitSession
+  langs:
+  - csharp
+  - vb
+  name: ExitButton
+  nameWithType: ExitButton
+  fullName: DrivingErrors.UI.Buttons.ExitButton
+  type: Class
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ExitButton.cs
+    id: ExitButton
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ExitButton.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.UI.Buttons
+  summary: "\nControls the behavior of the exit button on the error canvas.\n<p>Author:  Zone Sims</p>\n"
+  example: []
+  syntax:
+    content: 'public class ExitButton : MonoBehaviour'
+    content.vb: >-
+      Public Class ExitButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DrivingErrors.UI.Buttons.ExitButton.ExitSession
+  commentId: M:DrivingErrors.UI.Buttons.ExitButton.ExitSession
+  id: ExitSession
+  parent: DrivingErrors.UI.Buttons.ExitButton
+  langs:
+  - csharp
+  - vb
+  name: ExitSession()
+  nameWithType: ExitButton.ExitSession()
+  fullName: DrivingErrors.UI.Buttons.ExitButton.ExitSession()
+  type: Method
+  source:
+    remote:
+      path: F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ExitButton.cs
+    id: ExitSession
+    path: ../Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI/ExitButton.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: DrivingErrors.UI.Buttons
+  summary: "\nCloses the applications.  Should be changed to load the menu scene.\n"
+  example: []
+  syntax:
+    content: public void ExitSession()
+    content.vb: Public Sub ExitSession
+  overload: DrivingErrors.UI.Buttons.ExitButton.ExitSession*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DrivingErrors.UI.Buttons
+  commentId: N:DrivingErrors.UI.Buttons
+  name: DrivingErrors.UI.Buttons
+  nameWithType: DrivingErrors.UI.Buttons
+  fullName: DrivingErrors.UI.Buttons
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: DrivingErrors.UI.Buttons.ExitButton.ExitSession*
+  commentId: Overload:DrivingErrors.UI.Buttons.ExitButton.ExitSession
+  name: ExitSession
+  nameWithType: ExitButton.ExitSession
+  fullName: DrivingErrors.UI.Buttons.ExitButton.ExitSession
