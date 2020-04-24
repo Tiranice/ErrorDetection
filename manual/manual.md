@@ -44,10 +44,12 @@ Alva Port Progress
 - Josh Ortner — Engineering Team
 - Michell Knabe — Engineering Team
 - Nibraas Khan — Engineering Team, Project Manager
- - L. K. ‘Silk’ Silkeutsabay — Engineering Team
+- L. K. ‘Silk’ Silkeutsabay — Engineering Team
 - Tanzeena Karim — UI Team
 - Zane Sims — UI Team, Lead
+
 ---
+
 ## External Dependencies
 - Unity Asset Store
 	-  SlimUI - Tech Menu
@@ -67,6 +69,7 @@ Alva Port Progress
 	- /Assets/Scripts/Error_Scripts/ErrorHandling
 
 ---
+
 ## Prefabs
 ### ErrorCanvas
 Child of "Fove Interface" on "Car Variant3"
