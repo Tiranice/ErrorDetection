@@ -1,0 +1,450 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://tiranice.github.io/ErrorDetection/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://tiranice.github.io/ErrorDetection/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/ErrorDetection/ErrorDetection",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.Checkpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.Checkpoint.html",
+          "hash": "IkoTGbZFHfGGbMy9lW6xMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.DrivingError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.DrivingError.html",
+          "hash": "OwVJQ+IFIIN+GTDto+nHxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.DrivingErrorHandler.ErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.DrivingErrorHandler.ErrorType.html",
+          "hash": "yzTA/PdYhz0jHoFcdCQ4eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.DrivingErrorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.DrivingErrorHandler.html",
+          "hash": "yo++WJC24kBHCaQNTarZZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.DisableOneway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.DisableOneway.html",
+          "hash": "0bddhrvXHXYydMAE8e2YFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.EnableOneway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.EnableOneway.html",
+          "hash": "YBVrjO5pCe9aHRBLV3/LyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.InappropriateStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.InappropriateStop.html",
+          "hash": "jXdsD66nDscSsQNXFfJ76g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.OffCourseError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.OffCourseError.html",
+          "hash": "wITJ0uVTbW9/VasGUBdxLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.OnewayError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.OnewayError.html",
+          "hash": "M3OE+d6ORVJVWdFrOoN6lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.html",
+          "hash": "vYga3aUJYr62mxbrg4zI4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.SpeedLimitError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.SpeedLimitError.html",
+          "hash": "h4S3q4lcFI8cqaPNUv3h/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.StopDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.StopDetector.html",
+          "hash": "zGf/xKUtK0DFc8jlMojzMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.StopLightEast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.StopLightEast.html",
+          "hash": "C0orY5/5HkA0nPAbjFI/dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.StopLightNorth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.StopLightNorth.html",
+          "hash": "L74jGy9hA8U+InjASAuXrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.StopLightSouth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.StopLightSouth.html",
+          "hash": "qMiuevWdZTarGr06ryeuIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.StopLightWest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.StopLightWest.html",
+          "hash": "3tla+UxNQ5Je7XV8/Ly7fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.WrongLane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.WrongLane.html",
+          "hash": "drEEZNEBlhhr8iLT8Kme7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.ErrorDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.ErrorDetection.html",
+          "hash": "kk5v9BujMvmJ7+eWW/kZ0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.Buttons.ExitButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.Buttons.ExitButton.html",
+          "hash": "vvlyVHJh2xtg4rmF1XGSaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.Buttons.ReportButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.Buttons.ReportButton.html",
+          "hash": "Vtuvz+meLWncQgH7G+Lvog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.Buttons.RestartButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.Buttons.RestartButton.html",
+          "hash": "2TNcPlakiwacAOhOlIwakA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.Buttons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.Buttons.html",
+          "hash": "SIb6LYzlEOckSTC5cKM2Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.ErrorMessageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.ErrorMessageController.html",
+          "hash": "H+praVuGAcYYYjYrEDvLeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.ReportCardScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.ReportCardScript.html",
+          "hash": "O/bVLWWb7GQMB6qPGDRPig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.UI.html",
+          "hash": "PvPo/w5wMTgS6LjoGGnPow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrivingErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrivingErrors.html",
+          "hash": "m3WvdtAUVPCzjEcaFxreVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "z9jofwWtxNskXP8cTd4TmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "9tOYb2bw54T3jxfL3jgdfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidYamlHeader"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/manual.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual.html",
+          "hash": "Y2UL4m0vUe/JfWlLc3p63Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "p0UXymvz0CepZKhLGOl6Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "xd7P8fZdAU0T4+SFPyM/Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.51.0.0 to 2.52.0.0.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "DocfxVersionChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 26,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
