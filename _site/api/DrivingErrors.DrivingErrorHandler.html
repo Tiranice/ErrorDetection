@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DrivingErrorHandler
+   | Error Detection Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DrivingErrorHandler
+   | Error Detection Documentation ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DrivingErrors.DrivingErrorHandler">
+  
+  
+  <h1 id="DrivingErrors_DrivingErrorHandler" data-uid="DrivingErrors.DrivingErrorHandler" class="text-break">Class DrivingErrorHandler
+  </h1>
+  <div class="markdown level0 summary"><p>This handles all of the error reporting.  It is the go-between for the error system and the UI.</p>
+<p>This is to be placed on an empty of the same name with a tag of the same name.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">DrivingErrorHandler</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DrivingErrors.html">DrivingErrors</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="DrivingErrors_DrivingErrorHandler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DrivingErrorHandler : MonoBehaviour</code></pre>
+  </div>
+  <h5 id="DrivingErrors_DrivingErrorHandler_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+This is intended to be used as a singlton within any one scene.
+The singlton must have the synonyms tag for the related scripts to function.
+Addtional errors can be added by expanding the <code>ErrorType</code> enum.
+</p>
+</div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="DrivingErrors_DrivingErrorHandler_sendError" data-uid="DrivingErrors.DrivingErrorHandler.sendError">sendError</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ErrorMessageController sendError</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.UI.ErrorMessageController.html">ErrorMessageController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_TotalErrors_" data-uid="DrivingErrors.DrivingErrorHandler.TotalErrors*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_TotalErrors" data-uid="DrivingErrors.DrivingErrorHandler.TotalErrors">TotalErrors</h4>
+  <div class="markdown level1 summary"><p>Gets the sum of all errors in the <code>drivingErrors</code> list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalErrors { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>Sum of all <code>errorCount</code> members across all of the stored errors.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_AppendDrivingError_" data-uid="DrivingErrors.DrivingErrorHandler.AppendDrivingError*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_AppendDrivingError_DrivingErrors_DrivingErrorHandler_ErrorType_" data-uid="DrivingErrors.DrivingErrorHandler.AppendDrivingError(DrivingErrors.DrivingErrorHandler.ErrorType)">AppendDrivingError(DrivingErrorHandler.ErrorType)</h4>
+  <div class="markdown level1 summary"><p>Append a new DrivingError to the list of errors.
+If the error has already been recorded, then increments the count for that error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendDrivingError(DrivingErrorHandler.ErrorType errorType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.DrivingErrorHandler.ErrorType.html">DrivingErrorHandler.ErrorType</a></td>
+        <td><span class="parametername">errorType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_ClearDrivingErrors_" data-uid="DrivingErrors.DrivingErrorHandler.ClearDrivingErrors*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_ClearDrivingErrors" data-uid="DrivingErrors.DrivingErrorHandler.ClearDrivingErrors">ClearDrivingErrors()</h4>
+  <div class="markdown level1 summary"><p>Delete all entries in the DrivingErrors list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDrivingErrors()</code></pre>
+  </div>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_FindError_" data-uid="DrivingErrors.DrivingErrorHandler.FindError*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_FindError_DrivingErrors_DrivingError_" data-uid="DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingError)">FindError(DrivingError)</h4>
+  <div class="markdown level1 summary"><p>Find an error of a specific type given a DrivingError object with that errorType.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DrivingError FindError(DrivingError drivingError)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.DrivingError.html">DrivingError</a></td>
+        <td><span class="parametername">drivingError</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.DrivingError.html">DrivingError</a></td>
+        <td><p>DrivingError</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_FindError_" data-uid="DrivingErrors.DrivingErrorHandler.FindError*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_FindError_DrivingErrors_DrivingErrorHandler_ErrorType_" data-uid="DrivingErrors.DrivingErrorHandler.FindError(DrivingErrors.DrivingErrorHandler.ErrorType)">FindError(DrivingErrorHandler.ErrorType)</h4>
+  <div class="markdown level1 summary"><p>Find an error of a specific error type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DrivingError FindError(DrivingErrorHandler.ErrorType errorType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.DrivingErrorHandler.ErrorType.html">DrivingErrorHandler.ErrorType</a></td>
+        <td><span class="parametername">errorType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.DrivingError.html">DrivingError</a></td>
+        <td><p>DrivingError</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_GetArrayOfDrivingErrors_" data-uid="DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_GetArrayOfDrivingErrors" data-uid="DrivingErrors.DrivingErrorHandler.GetArrayOfDrivingErrors">GetArrayOfDrivingErrors()</h4>
+  <div class="markdown level1 summary"><p>Return a read only array of the error stored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DrivingError[] GetArrayOfDrivingErrors()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DrivingErrors.DrivingError.html">DrivingError</a>[]</td>
+        <td><p>Read-Only Array of DrivingErrors</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_GetSessionDrivingErrors_" data-uid="DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_GetSessionDrivingErrors" data-uid="DrivingErrors.DrivingErrorHandler.GetSessionDrivingErrors">GetSessionDrivingErrors()</h4>
+  <div class="markdown level1 summary"><p>Returns a list of all <a class="xref" href="DrivingErrors.DrivingError.html">DrivingError</a>s that have been reported across the entire session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;DrivingError&gt; GetSessionDrivingErrors()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DrivingErrors.DrivingError.html">DrivingError</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DrivingErrors_DrivingErrorHandler_PrintErrors_" data-uid="DrivingErrors.DrivingErrorHandler.PrintErrors*"></a>
+  <h4 id="DrivingErrors_DrivingErrorHandler_PrintErrors" data-uid="DrivingErrors.DrivingErrorHandler.PrintErrors">PrintErrors()</h4>
+  <div class="markdown level1 summary"><p>Prints all of the errors in the list to the console.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrintErrors()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Error Detection Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

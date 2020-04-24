@@ -1,0 +1,142 @@
+{
+  "api/DrivingErrors.Checkpoint.html": {
+    "href": "api/DrivingErrors.Checkpoint.html",
+    "title": "Class Checkpoint | Error Detection Documentation",
+    "keywords": "Class Checkpoint Player will be sent back to these on continue and optionally this can toggle the notAllowedToStop flag on the player car. See: notAllowedToStop Inheritance Object Object Component Behaviour MonoBehaviour Checkpoint Namespace : DrivingErrors Assembly : Assembly-CSharp.dll Syntax public class Checkpoint : MonoBehaviour Remarks Author: Nibrass Khan"
+  },
+  "api/DrivingErrors.DrivingError.html": {
+    "href": "api/DrivingErrors.DrivingError.html",
+    "title": "Class DrivingError | Error Detection Documentation",
+    "keywords": "Class DrivingError The DrivingError object represents a type of driving error and holds a count of that type of error. Inheritance Object DrivingError Namespace : DrivingErrors Assembly : Assembly-CSharp.dll Syntax public class DrivingError : IEquatable<DrivingError> Remarks Author: Devon James Wilson Implements IEquatable<T> Properties errorCount Counts the number of times an error has be recorded. Declaration public int errorCount { get; set; } Property Value Type Description Int32 errorType Get/Set the DrivingErrorHandler.ErrorType Declaration public DrivingErrorHandler.ErrorType errorType { get; set; } Property Value Type Description DrivingErrorHandler.ErrorType Methods Equals(DrivingError) Declaration public bool Equals(DrivingError other) Parameters Type Name Description DrivingError other Returns Type Description Boolean Equals(Object) Declaration public override bool Equals(object obj) Parameters Type Name Description Object obj Returns Type Description Boolean Overrides Object.Equals(Object) GetHashCode() Declaration public override int GetHashCode() Returns Type Description Int32 Overrides Object.GetHashCode() ToString() Declaration public override string ToString() Returns Type Description String Overrides Object.ToString()"
+  },
+  "api/DrivingErrors.DrivingErrorHandler.ErrorType.html": {
+    "href": "api/DrivingErrors.DrivingErrorHandler.ErrorType.html",
+    "title": "Enum DrivingErrorHandler.ErrorType | Error Detection Documentation",
+    "keywords": "Enum DrivingErrorHandler.ErrorType The different errors that are possible in the simulation. Namespace : DrivingErrors Assembly : Assembly-CSharp.dll Syntax public enum ErrorType Fields Name Description Collision 9 Player car collision DriveOnSidewalk 7 Driving on the sidewalk DrivingInPassingLane 12 Driving down the passing lane for too long FailureToStop_Light 2 Failure to stop at an area where it is sometimes required. FailureToStop_Sign 1 Failure to stop at an area where it is always required. FailureToYield 3 Failure to yield when player does not have the right-of-way. FatalError 0 Generic fatal error. IllegalLaneChange 6 Making a lane change manuver when it is not allowed InappropriateStop 5 Stopping in an area where stopping is illegal. InappropriateTurn 8 Turning at an improper time. NoTurnOnRed 13 Turning illeagly at a traffic light OffCourse 10 Driving off of the road Oneway 11 Driving the wrong way down a oneway Speeding 4 Driving over the designated speed limit."
+  },
+  "api/DrivingErrors.DrivingErrorHandler.html": {
+    "href": "api/DrivingErrors.DrivingErrorHandler.html",
+    "title": "Class DrivingErrorHandler | Error Detection Documentation",
+    "keywords": "Class DrivingErrorHandler This handles all of the error reporting. It is the go-between for the error system and the UI. This is to be placed on an empty of the same name with a tag of the same name. Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour DrivingErrorHandler Namespace : DrivingErrors Assembly : Assembly-CSharp.dll Syntax public class DrivingErrorHandler : MonoBehaviour Remarks This is intended to be used as a singlton within any one scene. The singlton must have the synonyms tag for the related scripts to function. Addtional errors can be added by expanding the ErrorType enum. Fields sendError Declaration public ErrorMessageController sendError Field Value Type Description ErrorMessageController Properties TotalErrors Gets the sum of all errors in the drivingErrors list. Declaration public int TotalErrors { get; } Property Value Type Description Int32 Sum of all errorCount members across all of the stored errors. Methods AppendDrivingError(DrivingErrorHandler.ErrorType) Append a new DrivingError to the list of errors. If the error has already been recorded, then increments the count for that error. Declaration public void AppendDrivingError(DrivingErrorHandler.ErrorType errorType) Parameters Type Name Description DrivingErrorHandler.ErrorType errorType ClearDrivingErrors() Delete all entries in the DrivingErrors list. Declaration public void ClearDrivingErrors() FindError(DrivingError) Find an error of a specific type given a DrivingError object with that errorType. Declaration public DrivingError FindError(DrivingError drivingError) Parameters Type Name Description DrivingError drivingError Returns Type Description DrivingError DrivingError FindError(DrivingErrorHandler.ErrorType) Find an error of a specific error type. Declaration public DrivingError FindError(DrivingErrorHandler.ErrorType errorType) Parameters Type Name Description DrivingErrorHandler.ErrorType errorType Returns Type Description DrivingError DrivingError GetArrayOfDrivingErrors() Return a read only array of the error stored. Declaration public DrivingError[] GetArrayOfDrivingErrors() Returns Type Description DrivingError [] Read-Only Array of DrivingErrors GetSessionDrivingErrors() Returns a list of all DrivingError s that have been reported across the entire session. Declaration public List<DrivingError> GetSessionDrivingErrors() Returns Type Description List < DrivingError > List<T> PrintErrors() Prints all of the errors in the list to the console. Declaration public void PrintErrors()"
+  },
+  "api/DrivingErrors.ErrorDetection.DisableOneway.html": {
+    "href": "api/DrivingErrors.ErrorDetection.DisableOneway.html",
+    "title": "Class DisableOneway | Error Detection Documentation",
+    "keywords": "Class DisableOneway Inheritance Object Object Component Behaviour MonoBehaviour DisableOneway Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class DisableOneway : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.EnableOneway.html": {
+    "href": "api/DrivingErrors.ErrorDetection.EnableOneway.html",
+    "title": "Class EnableOneway | Error Detection Documentation",
+    "keywords": "Class EnableOneway Inheritance Object Object Component Behaviour MonoBehaviour EnableOneway Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class EnableOneway : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.html": {
+    "href": "api/DrivingErrors.ErrorDetection.html",
+    "title": "Namespace DrivingErrors.ErrorDetection | Error Detection Documentation",
+    "keywords": "Namespace DrivingErrors.ErrorDetection Classes DisableOneway EnableOneway InappropriateStop OffCourseError Author: Devon Wilson | 3/6/2020 Reports an error when the player goes of course. eg. drives on the sidewalk. OnewayError PlayerCollisionDetector SpeedLimitError Used to check if the player is driving of the speed limit. StopDetector Place on a trigger volume to detect wether the player has stopped within the volume. StopLightEast StopLightNorth StopLightSouth StopLightWest WrongLane"
+  },
+  "api/DrivingErrors.ErrorDetection.InappropriateStop.html": {
+    "href": "api/DrivingErrors.ErrorDetection.InappropriateStop.html",
+    "title": "Class InappropriateStop | Error Detection Documentation",
+    "keywords": "Class InappropriateStop Inheritance Object Object Component Behaviour MonoBehaviour InappropriateStop Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class InappropriateStop : MonoBehaviour Fields notAllowedToStop Declaration public bool notAllowedToStop Field Value Type Description Boolean"
+  },
+  "api/DrivingErrors.ErrorDetection.OffCourseError.html": {
+    "href": "api/DrivingErrors.ErrorDetection.OffCourseError.html",
+    "title": "Class OffCourseError | Error Detection Documentation",
+    "keywords": "Class OffCourseError Author: Devon Wilson | 3/6/2020 Reports an error when the player goes of course. eg. drives on the sidewalk. Inheritance Object Object Component Behaviour MonoBehaviour OffCourseError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class OffCourseError : MonoBehaviour Remarks This can be places on: — A sidewalk with a trigger volume attatched, — An area that the player is not allowed to drive on for a period of time,"
+  },
+  "api/DrivingErrors.ErrorDetection.OnewayError.html": {
+    "href": "api/DrivingErrors.ErrorDetection.OnewayError.html",
+    "title": "Class OnewayError | Error Detection Documentation",
+    "keywords": "Class OnewayError Inheritance Object Object Component Behaviour MonoBehaviour OnewayError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class OnewayError : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.html": {
+    "href": "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.html",
+    "title": "Class PlayerCollisionDetector | Error Detection Documentation",
+    "keywords": "Class PlayerCollisionDetector Inheritance Object Object Component Behaviour MonoBehaviour PlayerCollisionDetector Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class PlayerCollisionDetector : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.SpeedLimitError.html": {
+    "href": "api/DrivingErrors.ErrorDetection.SpeedLimitError.html",
+    "title": "Class SpeedLimitError | Error Detection Documentation",
+    "keywords": "Class SpeedLimitError Used to check if the player is driving of the speed limit. Inheritance Object Object Component Behaviour MonoBehaviour SpeedLimitError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class SpeedLimitError : MonoBehaviour Remarks Author: Devon James Wilson 02/25/2020 This should be placed on both the player object and the speed signs. Each of the speed signs should have a trigger that sets the speed limit for the player. Properties SpeedLimit Declaration public double SpeedLimit { get; set; } Property Value Type Description Double"
+  },
+  "api/DrivingErrors.ErrorDetection.StopDetector.html": {
+    "href": "api/DrivingErrors.ErrorDetection.StopDetector.html",
+    "title": "Class StopDetector | Error Detection Documentation",
+    "keywords": "Class StopDetector Place on a trigger volume to detect wether the player has stopped within the volume. Inheritance Object Object Component Behaviour MonoBehaviour StopDetector Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopDetector : MonoBehaviour Remarks Author: L. K. ‘Silk’ Silkeutsabay"
+  },
+  "api/DrivingErrors.ErrorDetection.StopLightEast.html": {
+    "href": "api/DrivingErrors.ErrorDetection.StopLightEast.html",
+    "title": "Class StopLightEast | Error Detection Documentation",
+    "keywords": "Class StopLightEast Inheritance Object Object Component Behaviour MonoBehaviour StopLightEast Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightEast : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.StopLightNorth.html": {
+    "href": "api/DrivingErrors.ErrorDetection.StopLightNorth.html",
+    "title": "Class StopLightNorth | Error Detection Documentation",
+    "keywords": "Class StopLightNorth Inheritance Object Object Component Behaviour MonoBehaviour StopLightNorth Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightNorth : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.StopLightSouth.html": {
+    "href": "api/DrivingErrors.ErrorDetection.StopLightSouth.html",
+    "title": "Class StopLightSouth | Error Detection Documentation",
+    "keywords": "Class StopLightSouth Inheritance Object Object Component Behaviour MonoBehaviour StopLightSouth Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightSouth : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.StopLightWest.html": {
+    "href": "api/DrivingErrors.ErrorDetection.StopLightWest.html",
+    "title": "Class StopLightWest | Error Detection Documentation",
+    "keywords": "Class StopLightWest Inheritance Object Object Component Behaviour MonoBehaviour StopLightWest Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightWest : MonoBehaviour"
+  },
+  "api/DrivingErrors.ErrorDetection.WrongLane.html": {
+    "href": "api/DrivingErrors.ErrorDetection.WrongLane.html",
+    "title": "Class WrongLane | Error Detection Documentation",
+    "keywords": "Class WrongLane Inheritance Object Object Component Behaviour MonoBehaviour WrongLane Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class WrongLane : MonoBehaviour Fields isPassingLane Declaration public bool isPassingLane Field Value Type Description Boolean"
+  },
+  "api/DrivingErrors.html": {
+    "href": "api/DrivingErrors.html",
+    "title": "Namespace DrivingErrors | Error Detection Documentation",
+    "keywords": "Namespace DrivingErrors Classes Checkpoint Player will be sent back to these on continue and optionally this can toggle the notAllowedToStop flag on the player car. See: notAllowedToStop DrivingError The DrivingError object represents a type of driving error and holds a count of that type of error. DrivingErrorHandler This handles all of the error reporting. It is the go-between for the error system and the UI. This is to be placed on an empty of the same name with a tag of the same name. Enums DrivingErrorHandler.ErrorType The different errors that are possible in the simulation."
+  },
+  "api/DrivingErrors.UI.Buttons.ExitButton.html": {
+    "href": "api/DrivingErrors.UI.Buttons.ExitButton.html",
+    "title": "Class ExitButton | Error Detection Documentation",
+    "keywords": "Class ExitButton Controls the behavior of the exit button on the error canvas. Author: Zone Sims Inheritance Object Object Component Behaviour MonoBehaviour ExitButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class ExitButton : MonoBehaviour Methods ExitSession() Closes the applications. Should be changed to load the menu scene. Declaration public void ExitSession()"
+  },
+  "api/DrivingErrors.UI.Buttons.html": {
+    "href": "api/DrivingErrors.UI.Buttons.html",
+    "title": "Namespace DrivingErrors.UI.Buttons | Error Detection Documentation",
+    "keywords": "Namespace DrivingErrors.UI.Buttons Classes ExitButton Controls the behavior of the exit button on the error canvas. Author: Zone Sims ReportButton Controls the behavior of the continue button on the error canvas. RestartButton Controls the behavior of the exit button on the error canvas. Author: Zane Sims"
+  },
+  "api/DrivingErrors.UI.Buttons.ReportButton.html": {
+    "href": "api/DrivingErrors.UI.Buttons.ReportButton.html",
+    "title": "Class ReportButton | Error Detection Documentation",
+    "keywords": "Class ReportButton Controls the behavior of the continue button on the error canvas. Inheritance Object Object Component Behaviour MonoBehaviour ReportButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class ReportButton : MonoBehaviour Remarks Author: Zane Sims Methods DisplayReportCard() Hides the error message box and displays the report card. Declaration public void DisplayReportCard()"
+  },
+  "api/DrivingErrors.UI.Buttons.RestartButton.html": {
+    "href": "api/DrivingErrors.UI.Buttons.RestartButton.html",
+    "title": "Class RestartButton | Error Detection Documentation",
+    "keywords": "Class RestartButton Controls the behavior of the exit button on the error canvas. Author: Zane Sims Inheritance Object Object Component Behaviour MonoBehaviour RestartButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class RestartButton : MonoBehaviour Methods ResetGame() Call to reset the game by reloading the current scene. Declaration public void ResetGame()"
+  },
+  "api/DrivingErrors.UI.ErrorMessageController.html": {
+    "href": "api/DrivingErrors.UI.ErrorMessageController.html",
+    "title": "Class ErrorMessageController | Error Detection Documentation",
+    "keywords": "Class ErrorMessageController Handles the error message UI Inheritance Object Object Component Behaviour MonoBehaviour ErrorMessageController Namespace : DrivingErrors.UI Assembly : Assembly-CSharp.dll Syntax public class ErrorMessageController : MonoBehaviour Remarks Gets an int value from DrivingErrorHandler to populate the correct text for the error made. This script should be placed on a Canvas . Author: Zane Sims Extends MonoBehaviour Methods HideMessageBox() Declaration public void HideMessageBox() SendError(Int32) Call to send an error by id to the ErrorMessageController so that it can be displayed in the UI. Declaration public void SendError(int id) Parameters Type Name Description Int32 id An DrivingErrorHandler.ErrorType cast to an Int32 representing the error that was made."
+  },
+  "api/DrivingErrors.UI.html": {
+    "href": "api/DrivingErrors.UI.html",
+    "title": "Namespace DrivingErrors.UI | Error Detection Documentation",
+    "keywords": "Namespace DrivingErrors.UI Classes ErrorMessageController Handles the error message UI ReportCardScript Controls the behavior of the ReportCard object."
+  },
+  "api/DrivingErrors.UI.ReportCardScript.html": {
+    "href": "api/DrivingErrors.UI.ReportCardScript.html",
+    "title": "Class ReportCardScript | Error Detection Documentation",
+    "keywords": "Class ReportCardScript Controls the behavior of the ReportCard object. Inheritance Object Object Component Behaviour MonoBehaviour ReportCardScript Namespace : DrivingErrors.UI Assembly : Assembly-CSharp.dll Syntax public class ReportCardScript : MonoBehaviour Remarks Author: Ian Gregory 04-07-2020 Methods ReportAllErrors() Gets the list of all errors reported across the setion and prints them Declaration public void ReportAllErrors() SetVisible(Boolean) Enable/disable all report card UI Declaration public void SetVisible(bool value) Parameters Type Name Description Boolean value Boolean toggles the active state of the members."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Error Detection Documentation",
+    "keywords": ""
+  },
+  "manual/manual.html": {
+    "href": "manual/manual.html",
+    "title": "MTSU CSCI 4700/5700 | Error Detection Documentation",
+    "keywords": "Alva Port Progress [ ] Scripts [x] DrivingErrorHandler [x] ErrorMessageController v2 [x] Buttons [ ] SpeedLimitError [ ] StopDetector [ ] Checkpoint [ ] CheckpointSingleton [ ] OnewayError [ ] Enable [ ] Disable [ ] StopLightTracker [ ] East [ ] West [ ] North [ ] South [ ] InappropriateStop [ ] OffCourseError [ ] ParkingArea [ ] PlayerCollisionDetector [ ] WrongLane [ ] Prefabs [x] ErrorCanvas v2 [x] Speed Tester [x] Stop Tester [x] Oneway Triggers [ ] Traffic Lights [ ] ReportCard [ ] MetaErrorController [ ] Checkpoint [ ] ParkingArea [ ] External Dependencies [x] TextMeshPro [x] SlimUI MTSU CSCI 4700/5700 Spring 2020 — Driving Error Detection Team Abhilash Patel — UI Team Devon Wilson — Engineering Team, Architecture & Porting Dessa Hale — UI Team, Team Communication & Management Ian Gregory — Engineering Team Josh Ortner — Engineering Team Michell Knabe — Engineering Team Nibraas Khan — Engineering Team, Project Manager L. K. ‘Silk’ Silkeutsabay — Engineering Team Tanzeena Karim — UI Team Zane Sims — UI Team, Lead External Dependencies Unity Asset Store SlimUI - Tech Menu For translucent menus Depended on by: Files in /Assets/Material/ErrorHandling/ Unity Packages TextMesh Pro v1.3.0 Depended on by: /Assets/Prefabs/ErrorDetection/ErrorCanvas - Files in /Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI Files Added All files in the following directories and their subdirectories. /Assets/Prefabs/ErrorDetection /Assets/Materials/ErrorHandling /Assets/Scripts/Error_Scripts/ErrorHandling Prefabs ErrorCanvas Child of \"Fove Interface\" on \"Car Variant3\" This is a TMPro GUI rendered in world space within the car. In order for the canvas to be fixed relative to the player's view it should be a child of whatever camera is selected as its event camera. It is currently a child of the Fove Interface and is using the camera component of that object as its event camera. The ErrorMessageController script lives on the top level object. For this to function correctly it must be a child of whatever object the camera the player looks through is attached to. The script would have to be changed otherwise. MetaErrorController This is a container for the singletons Driving Error Handler and Checkpoint Singleton. SpeedTester This prefab contains a trigger volume that changes the speed limit value on the player object's SpeedLimitError component. It should be added as a child to a speed limit sign and have its Speed Limit field set appropriately. StopTester Scripts Namespace DrivingErrors #### DrivingErrorHandler Placement — On the MetaErrorController Prefab Purpose — Receiving messages from the error detection scripts and sending messages to the ErrorMessageController. Namespace DrivingErrors.UI #### ErrorMessageController Placement — On the ErrorCanvas prefab Purpose — Controls the error message UI elements ### Namepace DrivingErrors.UI.Buttons #### ContinueButton Reload the scene from the previous checkpoint #### ExitButton Currently call Application.Quit() Should will be changed when the report card is added #### RestartButton Resets the last checkpoint to the starting checkpoint then reloads the scene. ### Namespace DrivingErrors.ErrorDetection #### SpeedLimitError Placed as a component on the speed tester prefab and the player car."
+  }
+}

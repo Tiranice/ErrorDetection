@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MTSU CSCI 4700/5700 | Error Detection Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="MTSU CSCI 4700/5700 | Error Detection Documentation ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p sourcefile="manual/manual.md" sourcestartlinenumber="1" sourceendlinenumber="1">Alva Port Progress</p>
+<ul sourcefile="manual/manual.md" sourcestartlinenumber="2" sourceendlinenumber="35">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="2" sourceendlinenumber="22">[ ] Scripts<ul sourcefile="manual/manual.md" sourcestartlinenumber="3" sourceendlinenumber="22">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="3" sourceendlinenumber="3">[x] DrivingErrorHandler</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="4" sourceendlinenumber="5">[x] ErrorMessageController v2<ul sourcefile="manual/manual.md" sourcestartlinenumber="5" sourceendlinenumber="5">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="5" sourceendlinenumber="5">[x] Buttons</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="6" sourceendlinenumber="6">[ ] SpeedLimitError</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="7" sourceendlinenumber="7">[ ] StopDetector</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="8" sourceendlinenumber="8">[ ] Checkpoint</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="9" sourceendlinenumber="9">[ ] CheckpointSingleton</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="10" sourceendlinenumber="12">[ ] OnewayError<ul sourcefile="manual/manual.md" sourcestartlinenumber="11" sourceendlinenumber="12">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="11" sourceendlinenumber="11">[ ] Enable</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="12" sourceendlinenumber="12">[ ] Disable</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="13" sourceendlinenumber="17">[ ] StopLightTracker<ul sourcefile="manual/manual.md" sourcestartlinenumber="14" sourceendlinenumber="17">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="14" sourceendlinenumber="14">[ ] East</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="15" sourceendlinenumber="15">[ ] West</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="16" sourceendlinenumber="16">[ ] North</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="17" sourceendlinenumber="17">[ ] South </li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="18" sourceendlinenumber="18">[ ] InappropriateStop</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="19" sourceendlinenumber="19">[ ] OffCourseError</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="20" sourceendlinenumber="20">[ ] ParkingArea</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="21" sourceendlinenumber="21">[ ] PlayerCollisionDetector</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="22" sourceendlinenumber="22">[ ] WrongLane</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="23" sourceendlinenumber="32">[ ] Prefabs<ul sourcefile="manual/manual.md" sourcestartlinenumber="24" sourceendlinenumber="32">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="24" sourceendlinenumber="24">[x] ErrorCanvas v2</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="25" sourceendlinenumber="25">[x] Speed Tester</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="26" sourceendlinenumber="26">[x] Stop Tester</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="27" sourceendlinenumber="27">[x] Oneway Triggers</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="28" sourceendlinenumber="28">[ ] Traffic Lights </li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="29" sourceendlinenumber="29">[ ] ReportCard</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="30" sourceendlinenumber="30">[ ] MetaErrorController</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="31" sourceendlinenumber="31">[ ] Checkpoint</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="32" sourceendlinenumber="32">[ ] ParkingArea</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="33" sourceendlinenumber="35">[ ] External Dependencies<ul sourcefile="manual/manual.md" sourcestartlinenumber="34" sourceendlinenumber="35">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="34" sourceendlinenumber="34">[x] TextMeshPro</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="35" sourceendlinenumber="35">[x] SlimUI</li>
+</ul>
+</li>
+</ul>
+<h1 id="mtsu-csci-47005700" sourcefile="manual/manual.md" sourcestartlinenumber="37" sourceendlinenumber="37">MTSU CSCI 4700/5700</h1>
+<h2 id="spring-2020--driving-error-detection" sourcefile="manual/manual.md" sourcestartlinenumber="38" sourceendlinenumber="38">Spring 2020 — Driving Error Detection</h2>
+<h2 id="team" sourcefile="manual/manual.md" sourcestartlinenumber="39" sourceendlinenumber="39">Team</h2>
+<ul sourcefile="manual/manual.md" sourcestartlinenumber="40" sourceendlinenumber="49">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="40" sourceendlinenumber="40">Abhilash Patel — UI Team</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="41" sourceendlinenumber="41">Devon Wilson — Engineering Team, Architecture &amp; Porting</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="42" sourceendlinenumber="42">Dessa Hale — UI Team, Team Communication &amp; Management</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="43" sourceendlinenumber="43">Ian Gregory — Engineering Team</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="44" sourceendlinenumber="44">Josh Ortner — Engineering Team</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="45" sourceendlinenumber="45">Michell Knabe — Engineering Team</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="46" sourceendlinenumber="46">Nibraas Khan — Engineering Team, Project Manager</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="47" sourceendlinenumber="47">L. K. ‘Silk’ Silkeutsabay — Engineering Team</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="48" sourceendlinenumber="48">Tanzeena Karim — UI Team</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="49" sourceendlinenumber="49">Zane Sims — UI Team, Lead</li>
+</ul>
+<hr>
+<h2 id="external-dependencies" sourcefile="manual/manual.md" sourcestartlinenumber="53" sourceendlinenumber="53">External Dependencies</h2>
+<ul sourcefile="manual/manual.md" sourcestartlinenumber="54" sourceendlinenumber="62">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="54" sourceendlinenumber="58">Unity Asset Store<ul sourcefile="manual/manual.md" sourcestartlinenumber="55" sourceendlinenumber="58">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="55" sourceendlinenumber="58">SlimUI - Tech Menu<ul sourcefile="manual/manual.md" sourcestartlinenumber="56" sourceendlinenumber="58">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="56" sourceendlinenumber="56">For translucent menus</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="57" sourceendlinenumber="58">Depended on by:<ul sourcefile="manual/manual.md" sourcestartlinenumber="58" sourceendlinenumber="58">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="58" sourceendlinenumber="58">Files in /Assets/Material/ErrorHandling/</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="59" sourceendlinenumber="62">Unity Packages<ul sourcefile="manual/manual.md" sourcestartlinenumber="60" sourceendlinenumber="62">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="60" sourceendlinenumber="60">TextMesh Pro v1.3.0</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="61" sourceendlinenumber="62">Depended on by:<ul sourcefile="manual/manual.md" sourcestartlinenumber="62" sourceendlinenumber="62">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="62" sourceendlinenumber="62">/Assets/Prefabs/ErrorDetection/ErrorCanvas</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre sourcefile="manual/manual.md" sourcestartlinenumber="63" sourceendlinenumber="63"><code>    - Files in /Assets/Scripts/Error_Scripts/ErrorHandling/ErrorHandlingUI
+</code></pre><hr>
+<h2 id="files-added" sourcefile="manual/manual.md" sourcestartlinenumber="65" sourceendlinenumber="65">Files Added</h2>
+<ul sourcefile="manual/manual.md" sourcestartlinenumber="66" sourceendlinenumber="69">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="66" sourceendlinenumber="69">All files in the following directories and their subdirectories.<ul sourcefile="manual/manual.md" sourcestartlinenumber="67" sourceendlinenumber="69">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="67" sourceendlinenumber="67">/Assets/Prefabs/ErrorDetection</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="68" sourceendlinenumber="68">/Assets/Materials/ErrorHandling</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="69" sourceendlinenumber="69">/Assets/Scripts/Error_Scripts/ErrorHandling</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="prefabs" sourcefile="manual/manual.md" sourcestartlinenumber="73" sourceendlinenumber="73">Prefabs</h2>
+<h3 id="errorcanvas" sourcefile="manual/manual.md" sourcestartlinenumber="74" sourceendlinenumber="74">ErrorCanvas</h3>
+<p sourcefile="manual/manual.md" sourcestartlinenumber="75" sourceendlinenumber="78">Child of &quot;Fove Interface&quot; on &quot;Car Variant3&quot;
+This is a TMPro GUI  rendered in world space within the car.  In order for the canvas to be fixed relative to the player&#39;s view it should be a child of whatever camera is selected as its event camera.  It is currently a child of the Fove Interface and is using the camera component of that object as its event camera.
+The ErrorMessageController script lives on the top level object.
+<strong><em>For this to function correctly it must be a child of whatever object the camera the player looks through is attached to.  The script would have to be changed otherwise.</em></strong></p>
+<h3 id="metaerrorcontroller" sourcefile="manual/manual.md" sourcestartlinenumber="79" sourceendlinenumber="79">MetaErrorController</h3>
+<p sourcefile="manual/manual.md" sourcestartlinenumber="80" sourceendlinenumber="80">This is a container for the singletons Driving Error Handler and Checkpoint Singleton.</p>
+<h3 id="speedtester" sourcefile="manual/manual.md" sourcestartlinenumber="81" sourceendlinenumber="81">SpeedTester</h3>
+<p sourcefile="manual/manual.md" sourcestartlinenumber="82" sourceendlinenumber="82">This prefab contains a trigger volume that changes the speed limit value on the player object&#39;s SpeedLimitError component.  It should be added as a child to a speed limit sign and have its Speed Limit field set appropriately.</p>
+<h3 id="stoptester" sourcefile="manual/manual.md" sourcestartlinenumber="83" sourceendlinenumber="83">StopTester</h3>
+<hr>
+<h2 id="scripts" sourcefile="manual/manual.md" sourcestartlinenumber="85" sourceendlinenumber="85">Scripts</h2>
+<h3 id="namespace-drivingerrors" sourcefile="manual/manual.md" sourcestartlinenumber="86" sourceendlinenumber="86">Namespace DrivingErrors</h3>
+<ul sourcefile="manual/manual.md" sourcestartlinenumber="87" sourceendlinenumber="89">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="87" sourceendlinenumber="89">#### DrivingErrorHandler<ul sourcefile="manual/manual.md" sourcestartlinenumber="88" sourceendlinenumber="89">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="88" sourceendlinenumber="88">Placement — On the MetaErrorController Prefab</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="89" sourceendlinenumber="89">Purpose — Receiving messages from the error detection scripts and sending messages to the ErrorMessageController.</li>
+</ul>
+</li>
+</ul>
+<h3 id="namespace-drivingerrorsui" sourcefile="manual/manual.md" sourcestartlinenumber="91" sourceendlinenumber="91">Namespace DrivingErrors.UI</h3>
+<ul sourcefile="manual/manual.md" sourcestartlinenumber="92" sourceendlinenumber="106">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="92" sourceendlinenumber="95">#### ErrorMessageController<ul sourcefile="manual/manual.md" sourcestartlinenumber="93" sourceendlinenumber="95">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="93" sourceendlinenumber="93">Placement — On the ErrorCanvas prefab</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="94" sourceendlinenumber="95">Purpose — Controls the error message UI elements
+### Namepace DrivingErrors.UI.Buttons</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="96" sourceendlinenumber="97">#### ContinueButton<ul sourcefile="manual/manual.md" sourcestartlinenumber="97" sourceendlinenumber="97">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="97" sourceendlinenumber="97">Reload the scene from the previous checkpoint</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="98" sourceendlinenumber="100">#### ExitButton<ul sourcefile="manual/manual.md" sourcestartlinenumber="99" sourceendlinenumber="100">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="99" sourceendlinenumber="100">Currently call Application.Quit()<ul sourcefile="manual/manual.md" sourcestartlinenumber="100" sourceendlinenumber="100">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="100" sourceendlinenumber="100">Should will be changed when the report card is added</li>
+</ul>
+</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="101" sourceendlinenumber="103">#### RestartButton<ul sourcefile="manual/manual.md" sourcestartlinenumber="102" sourceendlinenumber="103">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="102" sourceendlinenumber="103">Resets the last checkpoint to the starting checkpoint then reloads the scene.
+### Namespace DrivingErrors.ErrorDetection</li>
+</ul>
+</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="104" sourceendlinenumber="106">#### SpeedLimitError<ul sourcefile="manual/manual.md" sourcestartlinenumber="105" sourceendlinenumber="106">
+<li sourcefile="manual/manual.md" sourcestartlinenumber="105" sourceendlinenumber="105">Placed as a component on the speed tester prefab and the player car.</li>
+<li sourcefile="manual/manual.md" sourcestartlinenumber="106" sourceendlinenumber="105"></li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Tiranice/ErrorDetection/blob/master/manual/manual.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Error Detection Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
