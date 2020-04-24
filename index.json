@@ -2,7 +2,7 @@
   "api/DrivingErrors.Checkpoint.html": {
     "href": "api/DrivingErrors.Checkpoint.html",
     "title": "Class Checkpoint | Error Detection Documentation",
-    "keywords": "Class Checkpoint Player will be sent back to these on continue and optionally this can toggle the notAllowedToStop flag on the player car. See: notAllowedToStop Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour Checkpoint Namespace : DrivingErrors Assembly : Assembly-CSharp.dll Syntax public class Checkpoint : MonoBehaviour Remarks Author: Nibrass Khan"
+    "keywords": "Class Checkpoint Player will be sent back to these on continue and optionally this can toggle the notAllowedToStop flag on the player car. See: notAllowedToStop Inheritance Object Object Component Behaviour MonoBehaviour Checkpoint Namespace : DrivingErrors Assembly : Assembly-CSharp.dll Syntax public class Checkpoint : MonoBehaviour Remarks Author: Nibrass Khan"
   },
   "api/DrivingErrors.DrivingError.html": {
     "href": "api/DrivingErrors.DrivingError.html",
@@ -22,12 +22,12 @@
   "api/DrivingErrors.ErrorDetection.DisableOneway.html": {
     "href": "api/DrivingErrors.ErrorDetection.DisableOneway.html",
     "title": "Class DisableOneway | Error Detection Documentation",
-    "keywords": "Class DisableOneway Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour DisableOneway Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class DisableOneway : MonoBehaviour"
+    "keywords": "Class DisableOneway Inheritance Object Object Component Behaviour MonoBehaviour DisableOneway Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class DisableOneway : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.EnableOneway.html": {
     "href": "api/DrivingErrors.ErrorDetection.EnableOneway.html",
     "title": "Class EnableOneway | Error Detection Documentation",
-    "keywords": "Class EnableOneway Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour EnableOneway Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class EnableOneway : MonoBehaviour"
+    "keywords": "Class EnableOneway Inheritance Object Object Component Behaviour MonoBehaviour EnableOneway Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class EnableOneway : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.html": {
     "href": "api/DrivingErrors.ErrorDetection.html",
@@ -37,57 +37,57 @@
   "api/DrivingErrors.ErrorDetection.InappropriateStop.html": {
     "href": "api/DrivingErrors.ErrorDetection.InappropriateStop.html",
     "title": "Class InappropriateStop | Error Detection Documentation",
-    "keywords": "Class InappropriateStop Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour InappropriateStop Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class InappropriateStop : MonoBehaviour Fields notAllowedToStop Declaration public bool notAllowedToStop Field Value Type Description Boolean"
+    "keywords": "Class InappropriateStop Inheritance Object Object Component Behaviour MonoBehaviour InappropriateStop Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class InappropriateStop : MonoBehaviour Fields notAllowedToStop Declaration public bool notAllowedToStop Field Value Type Description Boolean"
   },
   "api/DrivingErrors.ErrorDetection.OffCourseError.html": {
     "href": "api/DrivingErrors.ErrorDetection.OffCourseError.html",
     "title": "Class OffCourseError | Error Detection Documentation",
-    "keywords": "Class OffCourseError Author: Devon Wilson | 3/6/2020 Reports an error when the player goes of course. eg. drives on the sidewalk. Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour OffCourseError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class OffCourseError : MonoBehaviour Remarks This can be places on: — A sidewalk with a trigger volume attatched, — An area that the player is not allowed to drive on for a period of time,"
+    "keywords": "Class OffCourseError Author: Devon Wilson | 3/6/2020 Reports an error when the player goes of course. eg. drives on the sidewalk. Inheritance Object Object Component Behaviour MonoBehaviour OffCourseError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class OffCourseError : MonoBehaviour Remarks This can be places on: — A sidewalk with a trigger volume attatched, — An area that the player is not allowed to drive on for a period of time,"
   },
   "api/DrivingErrors.ErrorDetection.OnewayError.html": {
     "href": "api/DrivingErrors.ErrorDetection.OnewayError.html",
     "title": "Class OnewayError | Error Detection Documentation",
-    "keywords": "Class OnewayError Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour OnewayError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class OnewayError : MonoBehaviour"
+    "keywords": "Class OnewayError Inheritance Object Object Component Behaviour MonoBehaviour OnewayError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class OnewayError : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.html": {
     "href": "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.html",
     "title": "Class PlayerCollisionDetector | Error Detection Documentation",
-    "keywords": "Class PlayerCollisionDetector Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour PlayerCollisionDetector Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class PlayerCollisionDetector : MonoBehaviour"
+    "keywords": "Class PlayerCollisionDetector Inheritance Object Object Component Behaviour MonoBehaviour PlayerCollisionDetector Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class PlayerCollisionDetector : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.SpeedLimitError.html": {
     "href": "api/DrivingErrors.ErrorDetection.SpeedLimitError.html",
     "title": "Class SpeedLimitError | Error Detection Documentation",
-    "keywords": "Class SpeedLimitError Used to check if the player is driving of the speed limit. Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour SpeedLimitError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class SpeedLimitError : MonoBehaviour Remarks Author: Devon James Wilson 02/25/2020 This should be placed on both the player object and the speed signs. Each of the speed signs should have a trigger that sets the speed limit for the player. Properties SpeedLimit Declaration public double SpeedLimit { get; set; } Property Value Type Description Double"
+    "keywords": "Class SpeedLimitError Used to check if the player is driving of the speed limit. Inheritance Object Object Component Behaviour MonoBehaviour SpeedLimitError Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class SpeedLimitError : MonoBehaviour Remarks Author: Devon James Wilson 02/25/2020 This should be placed on both the player object and the speed signs. Each of the speed signs should have a trigger that sets the speed limit for the player. Properties SpeedLimit Declaration public double SpeedLimit { get; set; } Property Value Type Description Double"
   },
   "api/DrivingErrors.ErrorDetection.StopDetector.html": {
     "href": "api/DrivingErrors.ErrorDetection.StopDetector.html",
     "title": "Class StopDetector | Error Detection Documentation",
-    "keywords": "Class StopDetector Place on a trigger volume to detect wether the player has stopped within the volume. Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour StopDetector Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopDetector : MonoBehaviour Remarks Author: L. K. ‘Silk’ Silkeutsabay"
+    "keywords": "Class StopDetector Place on a trigger volume to detect wether the player has stopped within the volume. Inheritance Object Object Component Behaviour MonoBehaviour StopDetector Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopDetector : MonoBehaviour Remarks Author: L. K. ‘Silk’ Silkeutsabay"
   },
   "api/DrivingErrors.ErrorDetection.StopLightEast.html": {
     "href": "api/DrivingErrors.ErrorDetection.StopLightEast.html",
     "title": "Class StopLightEast | Error Detection Documentation",
-    "keywords": "Class StopLightEast Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour StopLightEast Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightEast : MonoBehaviour"
+    "keywords": "Class StopLightEast Inheritance Object Object Component Behaviour MonoBehaviour StopLightEast Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightEast : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.StopLightNorth.html": {
     "href": "api/DrivingErrors.ErrorDetection.StopLightNorth.html",
     "title": "Class StopLightNorth | Error Detection Documentation",
-    "keywords": "Class StopLightNorth Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour StopLightNorth Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightNorth : MonoBehaviour"
+    "keywords": "Class StopLightNorth Inheritance Object Object Component Behaviour MonoBehaviour StopLightNorth Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightNorth : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.StopLightSouth.html": {
     "href": "api/DrivingErrors.ErrorDetection.StopLightSouth.html",
     "title": "Class StopLightSouth | Error Detection Documentation",
-    "keywords": "Class StopLightSouth Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour StopLightSouth Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightSouth : MonoBehaviour"
+    "keywords": "Class StopLightSouth Inheritance Object Object Component Behaviour MonoBehaviour StopLightSouth Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightSouth : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.StopLightWest.html": {
     "href": "api/DrivingErrors.ErrorDetection.StopLightWest.html",
     "title": "Class StopLightWest | Error Detection Documentation",
-    "keywords": "Class StopLightWest Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour StopLightWest Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightWest : MonoBehaviour"
+    "keywords": "Class StopLightWest Inheritance Object Object Component Behaviour MonoBehaviour StopLightWest Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class StopLightWest : MonoBehaviour"
   },
   "api/DrivingErrors.ErrorDetection.WrongLane.html": {
     "href": "api/DrivingErrors.ErrorDetection.WrongLane.html",
     "title": "Class WrongLane | Error Detection Documentation",
-    "keywords": "Class WrongLane Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour WrongLane Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class WrongLane : MonoBehaviour Fields isPassingLane Declaration public bool isPassingLane Field Value Type Description Boolean"
+    "keywords": "Class WrongLane Inheritance Object Object Component Behaviour MonoBehaviour WrongLane Namespace : DrivingErrors.ErrorDetection Assembly : Assembly-CSharp.dll Syntax public class WrongLane : MonoBehaviour Fields isPassingLane Declaration public bool isPassingLane Field Value Type Description Boolean"
   },
   "api/DrivingErrors.html": {
     "href": "api/DrivingErrors.html",
@@ -97,7 +97,7 @@
   "api/DrivingErrors.UI.Buttons.ExitButton.html": {
     "href": "api/DrivingErrors.UI.Buttons.ExitButton.html",
     "title": "Class ExitButton | Error Detection Documentation",
-    "keywords": "Class ExitButton Controls the behavior of the exit button on the error canvas. Author: Zone Sims Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour ExitButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class ExitButton : MonoBehaviour Methods ExitSession() Closes the applications. Should be changed to load the menu scene. Declaration public void ExitSession()"
+    "keywords": "Class ExitButton Controls the behavior of the exit button on the error canvas. Author: Zone Sims Inheritance Object Object Component Behaviour MonoBehaviour ExitButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class ExitButton : MonoBehaviour Methods ExitSession() Closes the applications. Should be changed to load the menu scene. Declaration public void ExitSession()"
   },
   "api/DrivingErrors.UI.Buttons.html": {
     "href": "api/DrivingErrors.UI.Buttons.html",
@@ -107,17 +107,17 @@
   "api/DrivingErrors.UI.Buttons.ReportButton.html": {
     "href": "api/DrivingErrors.UI.Buttons.ReportButton.html",
     "title": "Class ReportButton | Error Detection Documentation",
-    "keywords": "Class ReportButton Controls the behavior of the continue button on the error canvas. Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour ReportButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class ReportButton : MonoBehaviour Remarks Author: Zane Sims Methods DisplayReportCard() Hides the error message box and displays the report card. Declaration public void DisplayReportCard()"
+    "keywords": "Class ReportButton Controls the behavior of the continue button on the error canvas. Inheritance Object Object Component Behaviour MonoBehaviour ReportButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class ReportButton : MonoBehaviour Remarks Author: Zane Sims Methods DisplayReportCard() Hides the error message box and displays the report card. Declaration public void DisplayReportCard()"
   },
   "api/DrivingErrors.UI.Buttons.RestartButton.html": {
     "href": "api/DrivingErrors.UI.Buttons.RestartButton.html",
     "title": "Class RestartButton | Error Detection Documentation",
-    "keywords": "Class RestartButton Controls the behavior of the exit button on the error canvas. Author: Zane Sims Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour RestartButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class RestartButton : MonoBehaviour Methods ResetGame() Call to reset the game by reloading the current scene. Declaration public void ResetGame()"
+    "keywords": "Class RestartButton Controls the behavior of the exit button on the error canvas. Author: Zane Sims Inheritance Object Object Component Behaviour MonoBehaviour RestartButton Namespace : DrivingErrors.UI.Buttons Assembly : Assembly-CSharp.dll Syntax public class RestartButton : MonoBehaviour Methods ResetGame() Call to reset the game by reloading the current scene. Declaration public void ResetGame()"
   },
   "api/DrivingErrors.UI.ErrorMessageController.html": {
     "href": "api/DrivingErrors.UI.ErrorMessageController.html",
     "title": "Class ErrorMessageController | Error Detection Documentation",
-    "keywords": "Class ErrorMessageController Handles the error message UI Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour ErrorMessageController Namespace : DrivingErrors.UI Assembly : Assembly-CSharp.dll Syntax public class ErrorMessageController : MonoBehaviour Remarks Gets an int value from DrivingErrorHandler to populate the correct text for the error made. This script should be placed on a UnityEngine.Canvas . Author: Zane Sims Extends UnityEngine.MonoBehaviour Methods HideMessageBox() Declaration public void HideMessageBox() SendError(Int32) Call to send an error by id to the ErrorMessageController so that it can be displayed in the UI. Declaration public void SendError(int id) Parameters Type Name Description Int32 id An DrivingErrorHandler.ErrorType cast to an Int32 representing the error that was made."
+    "keywords": "Class ErrorMessageController Handles the error message UI Inheritance Object Object Component Behaviour MonoBehaviour ErrorMessageController Namespace : DrivingErrors.UI Assembly : Assembly-CSharp.dll Syntax public class ErrorMessageController : MonoBehaviour Remarks Gets an int value from DrivingErrorHandler to populate the correct text for the error made. This script should be placed on a Canvas . Author: Zane Sims Extends MonoBehaviour Methods HideMessageBox() Declaration public void HideMessageBox() SendError(Int32) Call to send an error by id to the ErrorMessageController so that it can be displayed in the UI. Declaration public void SendError(int id) Parameters Type Name Description Int32 id An DrivingErrorHandler.ErrorType cast to an Int32 representing the error that was made."
   },
   "api/DrivingErrors.UI.html": {
     "href": "api/DrivingErrors.UI.html",
@@ -127,7 +127,7 @@
   "api/DrivingErrors.UI.ReportCardScript.html": {
     "href": "api/DrivingErrors.UI.ReportCardScript.html",
     "title": "Class ReportCardScript | Error Detection Documentation",
-    "keywords": "Class ReportCardScript Controls the behavior of the ReportCard object. Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour ReportCardScript Namespace : DrivingErrors.UI Assembly : Assembly-CSharp.dll Syntax public class ReportCardScript : MonoBehaviour Remarks Author: Ian Gregory 04-07-2020 Methods ReportAllErrors() Gets the list of all errors reported across the setion and prints them Declaration public void ReportAllErrors() SetVisible(Boolean) Enable/disable all report card UI Declaration public void SetVisible(bool value) Parameters Type Name Description Boolean value Boolean toggles the active state of the members."
+    "keywords": "Class ReportCardScript Controls the behavior of the ReportCard object. Inheritance Object Object Component Behaviour MonoBehaviour ReportCardScript Namespace : DrivingErrors.UI Assembly : Assembly-CSharp.dll Syntax public class ReportCardScript : MonoBehaviour Remarks Author: Ian Gregory 04-07-2020 Methods ReportAllErrors() Gets the list of all errors reported across the setion and prints them Declaration public void ReportAllErrors() SetVisible(Boolean) Enable/disable all report card UI Declaration public void SetVisible(bool value) Parameters Type Name Description Boolean value Boolean toggles the active state of the members."
   },
   "index.html": {
     "href": "index.html",

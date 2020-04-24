@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "D:/a/ErrorDetection/ErrorDetection",
+  "source_base_path": "F:/Storage/Users/Devon/Unity Projects/Alva 2.0 (1)/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.Checkpoint.html",
-          "hash": "IkoTGbZFHfGGbMy9lW6xMg=="
+          "hash": "Bd/0i/IlCxrG1+hyfo/aXg=="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.DrivingError.html",
-          "hash": "OwVJQ+IFIIN+GTDto+nHxg=="
+          "hash": "AiSDLEQQaAL0vopvPC2ykg=="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.DrivingErrorHandler.ErrorType.html",
-          "hash": "yzTA/PdYhz0jHoFcdCQ4eA=="
+          "hash": "Zcq+64ewkeiQbnAq9DzuQg=="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.DrivingErrorHandler.html",
-          "hash": "yo++WJC24kBHCaQNTarZZA=="
+          "hash": "312oMegJvm/k0/0KorDO1Q=="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.DisableOneway.html",
-          "hash": "0bddhrvXHXYydMAE8e2YFw=="
+          "hash": "yZnrv9VlPpRYJg/P4vQRVw=="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.EnableOneway.html",
-          "hash": "YBVrjO5pCe9aHRBLV3/LyA=="
+          "hash": "jblVe9NRUJ+kcY0hzkDIfQ=="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.InappropriateStop.html",
-          "hash": "jXdsD66nDscSsQNXFfJ76g=="
+          "hash": "cXp8fctWt0zqm9Lj1XoBtw=="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.OffCourseError.html",
-          "hash": "wITJ0uVTbW9/VasGUBdxLQ=="
+          "hash": "7z5dx6qlecfP7mUcgtvnqw=="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.OnewayError.html",
-          "hash": "M3OE+d6ORVJVWdFrOoN6lQ=="
+          "hash": "rM8Oos80VnEA7wxExAkosg=="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.PlayerCollisionDetector.html",
-          "hash": "vYga3aUJYr62mxbrg4zI4A=="
+          "hash": "yAkBzcdn+YkX7hu0WQ93ng=="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.SpeedLimitError.html",
-          "hash": "h4S3q4lcFI8cqaPNUv3h/w=="
+          "hash": "hewCNP2bVhHjDI3yrLsoTA=="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.StopDetector.html",
-          "hash": "zGf/xKUtK0DFc8jlMojzMw=="
+          "hash": "fjqyddYr9gRTbcKpHTmuug=="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.StopLightEast.html",
-          "hash": "C0orY5/5HkA0nPAbjFI/dg=="
+          "hash": "Xsy0kn6tPqZIdlez+cFj6w=="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.StopLightNorth.html",
-          "hash": "L74jGy9hA8U+InjASAuXrA=="
+          "hash": "LhAgnQ6wcVe47S1iLXHQWA=="
         }
       },
       "is_incremental": false,
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.StopLightSouth.html",
-          "hash": "qMiuevWdZTarGr06ryeuIA=="
+          "hash": "LLBdmw2bcNfJgsYI+odYiQ=="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.StopLightWest.html",
-          "hash": "3tla+UxNQ5Je7XV8/Ly7fw=="
+          "hash": "X8GQ0GlXGl1iOKizl5xf1A=="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.WrongLane.html",
-          "hash": "drEEZNEBlhhr8iLT8Kme7g=="
+          "hash": "7F9UPVklVvEZkU0zlqFmAw=="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.ErrorDetection.html",
-          "hash": "kk5v9BujMvmJ7+eWW/kZ0w=="
+          "hash": "Wlac2ZNQYpFVrE6sKX+DfA=="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.Buttons.ExitButton.html",
-          "hash": "vvlyVHJh2xtg4rmF1XGSaw=="
+          "hash": "dc6qCv86moakCifE8EM+Uw=="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.Buttons.ReportButton.html",
-          "hash": "Vtuvz+meLWncQgH7G+Lvog=="
+          "hash": "oq8TT+2kP8J0tSgkcwoS0g=="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.Buttons.RestartButton.html",
-          "hash": "2TNcPlakiwacAOhOlIwakA=="
+          "hash": "QMfNyLUbECYKetS3yZOlyg=="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.Buttons.html",
-          "hash": "SIb6LYzlEOckSTC5cKM2Xw=="
+          "hash": "D2jDDFGFYMW9kwDQpjYKOg=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.ErrorMessageController.html",
-          "hash": "H+praVuGAcYYYjYrEDvLeA=="
+          "hash": "0Eopda+VCQE7WPj51XndGg=="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.ReportCardScript.html",
-          "hash": "O/bVLWWb7GQMB6qPGDRPig=="
+          "hash": "yFOmOzf/3fXwj3PO3CABWA=="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.UI.html",
-          "hash": "PvPo/w5wMTgS6LjoGGnPow=="
+          "hash": "jON3P+larZYwXJAV0pqvTg=="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DrivingErrors.html",
-          "hash": "m3WvdtAUVPCzjEcaFxreVg=="
+          "hash": "MB0Xy0tPJTC31qNGwn7H9Q=="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "9tOYb2bw54T3jxfL3jgdfQ=="
+          "hash": "ECXypNDlVh0UgavsqSWctA=="
         }
       },
       "is_incremental": false,
@@ -367,7 +367,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/manual.html",
-          "hash": "Y2UL4m0vUe/JfWlLc3p63Q=="
+          "hash": "hHO8GQXjjFwEgdvSjWU95A=="
         }
       },
       "is_incremental": false,
@@ -401,25 +401,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.51.0.0 to 2.52.0.0.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "DocfxVersionChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 26,
-          "skipped_file_count": 0
+          "skipped_file_count": 26
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
